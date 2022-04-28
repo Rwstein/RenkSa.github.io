@@ -1,5 +1,5 @@
 # Meu Primeiro Trabalho HTLM5
-<a href="https://RenkSa.github.io/googleglass/index.html" target="_blank">Clique aqui para ver o site.</a>
+<a href="https://RenkSa.github.io/googleglass/index.html">Clique aqui para ver o site.</a>
 
 <h1> My work HTML5</h1>
 
