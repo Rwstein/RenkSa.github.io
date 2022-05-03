@@ -1,6 +1,5 @@
 # Meu Primeiro Trabalho HTLM5
-<a href="https://RenkSa.github.io/googleglass/index.html">Clique aqui para ver o site.</a>
-<h1>My work HTML5</h1>
+ My work HTML5
 
 Estou Estudando para ser um desenvolvedor Web = Java Script + CSS3 + HTML5 
 
