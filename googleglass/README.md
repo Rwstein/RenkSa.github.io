@@ -1,7 +1,7 @@
 # Meu Primeiro Trabalho HTLM5
  My work HTML5
  
- <a href="https://github.com/RenkSa/RenkSa.github.io/blob/main/googleglass/index.html"> clique aqui para ver o site.</a>
+ <a href="https://RenkSa.github.io/tree/main/googleglass/index.html"> clique aqui para ver o site.</a>
  
  
 <h1> Curso em Video</h1>
