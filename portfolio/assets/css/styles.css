@@ -511,7 +511,13 @@ img{
   color: var(--title-color);
   margin-right: var(--mb-2);
 }
-
+.alink{
+  color: #F1F3F2;
+  text-decoration: underline;
+}
+.alink:hover{
+  color: aqua;
+}
 .footer__title{
   font-size: var(--h2-font-size);
   color: var(--title-color);
