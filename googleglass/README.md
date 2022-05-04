@@ -4,7 +4,7 @@
  <a href="https://renksa.github.io/googleglass/index.html"> clique aqui para ver o site.</a>
 
 <h1> Imagem do Projeto </h1>
-<img src="https://github.com/RenkSa/RenkSa.github.io/blob/main/googleglass/_imagens/googleglass.png">
+<img src="https://github.com/RenkSa/RenkSa.github.io/blob/main/googleglass/_imagens/googleglass.png" width="800" height="400" >
  
 <h1> Curso em Video</h1>
 

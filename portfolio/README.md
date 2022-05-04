@@ -3,7 +3,7 @@
 
 <h1> Imagem do Projeto </h1>
 
-<img src="https://github.com/RenkSa/RenkSa.github.io/blob/main/portfolio/assets/img/portifolio.png">
+<img src="https://github.com/RenkSa/RenkSa.github.io/blob/main/portfolio/assets/img/portifolio.png" width="800" height="400">
 
 
 ## Requisitos
