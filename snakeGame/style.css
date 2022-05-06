@@ -1,0 +1,20 @@
+
+
+body {
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(252, 244, 244);
+    background-image: url("img/background.gif");   
+    background-repeat: no-repeat; 
+    background-size: 100%;
+}
+
+.canvas {
+    box-shadow: 0 0 5em rgb(240, 245, 241);
+    border-radius: 50px;
+}
+
