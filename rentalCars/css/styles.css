@@ -98,6 +98,10 @@ ul{
   list-style: none;
 }
 
+footer a{
+  text-decoration: none;
+}
+
 nav a{
   text-decoration: none;
 }
