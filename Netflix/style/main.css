@@ -21,6 +21,10 @@ body img {
     width: 200px;
 }
 
+header nav{
+    margin-right: 800px;
+}
+
 header .container{
     display: flex;
     flex-direction: row;
@@ -28,13 +32,13 @@ header .container{
     justify-content: space-between;
 
 }
-
+/*
 header .logo{
     margin-left: 5px;
     color: var(--vermelho);
     font-family: 'Arial Black', Times;
     font-size: 40px;
-}
+}*/
 
 header nav a{
     text-decoration: none;
@@ -57,6 +61,7 @@ header nav a:hover {
     flex-direction: column; /*Direciona em colunas*/
     justify-content: center; /*Justifica o conteudo no centro*/
     align-items: flex-start; /*alinha os itens no inicio*/
+    
 }
 
 .filme-principal .descricao{
@@ -64,8 +69,26 @@ header nav a:hover {
     margin-bottom: 40px;
 }
 
+.container-ico {
+    display: fixed;
+    margin-top: 5px;
+}
+
+.iconet{
+    width: 20px;
+    margin-right: 0%;
+    margin-top: 110px;
+
+}
+.refere{
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    margin-left: 25px;
+    margin-top: -20px;
+    font-size: 10pt;
+}
+
 .filme-principal .titulo{
-    margin-top: 15%;
+    
     font-size: 40px;
     font-family: 'Trebuchet MS', Arial, sans-serif;
 }
