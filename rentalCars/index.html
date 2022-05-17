@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+     <!--========== BOOSTSTRAP ==========-->
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
     <!--========== CAIXA DE ÍCONES ==========-->
     <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
@@ -27,98 +28,99 @@
  <!--========== HEADER ==========-->
  <header class="l-header" id="header">
   <nav class="nav bd-container">
-      <a href="#"></a>
-      <img class="img_logo" src="img/RENTALCARS.png" alt="" width="100px">
+      <a href="#">  
+      <img class="img_logo" src="img/iconRCars.png" alt="" width="150px">
       </a>
 
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>   
+  
 
       <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
               <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
               <li class="nav__item"><a href="#frota" class="nav__link">Nossa Frota</a></li>
-              <li class="nav__item"><a href="#gps" class="nav__link">Como chegar</a></li> 
-              <li class="nav__item"><a href="#contato" class="nav__link">Contatos</a></li>           
-               
-                  
-              <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+              <li class="nav__item"><a href="#gps" class="nav__link">Como chegar</a></li>
+              <li class="nav__item"><a href="#gps" class="nav__link">Serviços</a></li>
+              <li class="nav__item"><a href="#contato" class="nav__link">Contatos</a></li>
           </ul>
       </div>
-      <div class="nav__toggle" id="nav-toggle">
-          <i class='bx bx-menu'></i>
-      </div>
+
       
   </nav> 
 </header>
-
-<main class="l-main">
-
  <!--========== HOME ==========-->
- <section class="home" id="home">
-    <div class="home__container bd-container bd-grid">
-        <div class="home__data">
-            <h1 class="home__title">RENTAL CARS</h1>
-            <h2 class="home__subtitle">Aluguel de carros</h2>
-            
+<main>  
+    <div id="mainSlider" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-    
-        <img src="img/carros.jpeg" class="home__img">
-    </div>
-</section>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="img/carfarol.gif" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>RENTAL CARS</h2>
+              <p>Que tal alugar um de nossos carros?</p>
+              <a href="#frota" class="main-btn">Nossa Frota</a>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="img/MecaCar.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Precisando de Manutenção em seu carro?</h2>
+              <p>Vem conosco, temos os melhores mecanicos.</p>
+              <a href="#gps" class="main-btn">Faça uma visita</a>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/frotas.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2>Carro sujo ?</h2>
+              <p>Nem pensar! Limpamos seu carro.</p>
+              <a href="#gps" class="main-btn">Faça uma visita</a>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#mainSlider" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#mainSlider" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+<!-------------Carousel---------------> 
 
-
-
-<!--Carousel-->
-  
- 
 <section class="menu section bd-container" id="frota">
-  <span class="section-subtitle">Aqui estão alguns de nosso carros. 
-  <h2 class="section-title">Nossa Frota</h2>
-  <div class="owl-carousel owl-theme menu__container bd-grid menu__content">
-
-    <div class="item">
-        <img src="img/cars/BOLT.png" alt="">
-        <span>Ola Mundo</span>
-        
-    </div>
-    <div class="item">
-        <img src="img/cars/BOLT.png" alt="">
-        <span>Ola Mundo</span>
-    </div>
-    <div class="item">
-        <img src="img/cars/BOLT.png" alt="">
-        <span>Ola Mundo</span>
-    </div>
-    <div class="item">
-      <img src="img/cars/BOLT.png" alt="">
-      <span>Ola Mundo</span>
-      
-  </div>
-  <div class="item">
-      <img src="img/cars/BOLT.png" alt="">
-      <span>Ola Mundo</span>
-  </div>
-  <div class="item">
-      <img src="img/cars/BOLT.png" alt="">
-      <span>Ola Mundo</span>
-  </div>
-  <div class="item">
-    <img src="img/cars/BOLT.png" alt="">
-    <span>Ola Mundo</span>
-    
-</div>
-<div class="item">
-    <img src="img/cars/BOLT.png" alt="">
-    <span>Ola Mundo</span>
-</div>
-<div class="item">
-    <img src="img/cars/BOLT.png" alt="">
-    <span>Ola Mundo</span>
-</div>      
+  
 </section>
+
+ <!--========== GPS ==========-->
+ <section class="menu section bd-container" id="gps">
+    <span class="section-subtitle"> Afim de alugar um carro ? chame lá. 
+    <h2 class="section-title">Como chegar até nós</h2>
+    <div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2818.6796746353984!2d-54.73268350304753!3d-2.4352511656516094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9288f9052bc3ec43%3A0x2bfed81f4db09408!2sLocay%20Aluguel%20de%20Carros!5e0!3m2!1spt-BR!2sbr!4v1652798623295!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+        
+    
+</section>
+
+ <!--========== CONTACT US ==========-->
+ <section class="menu section bd-container" id="contato">
+    <span class="section-subtitle"> Afim de alugar um carro ? chame lá. 
+    <h2 class="section-title">Contatos</h2>
+
+        <div class="contact__button">
+            <img src="assets/img/whatsapp_gif.gif" class="gif"/>
+            <img src="assets/img/Email.gif" class="gEmail"/>
+            <a href="https://wa.me/5593992085930" target="_blank" class="button1">Enviar Mensagem</a>
+            <a href="mailto:renksa8@gmail.com?" class="button">Enviar e-mail</a>
+        </div>
+    </div>
+</section>
+</main>
 
 <!--========== FOOTER ==========-->
 <footer class="footer section bd-container">
@@ -155,7 +157,7 @@
 <script src="js/owl/jquery.min.js "></script>
 <script src="js/owl/owl.carousel.min.js"></script>
 <script src="js/owl/setup.js"></script>
-
+<!-------------------BOOTSTRAP--------------->
 <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
 <script src="js/main.js"></script>
 </body>
