@@ -111,12 +111,14 @@ img{
   font-size: 50px;
   margin-bottom: 30px;
   color: #f50b0b;
+  text-shadow:2px 2px 5px #000000;
 }
 
 #mainSlider .carousel-caption p {
-  font-size: 22px;
+  font-size: 30px;
   margin-bottom: 100px;
-  color:#FFF;
+  color: var(--first-color);
+  text-shadow: 5px 5px 10px #000000;
 }
 
 .main-btn {
