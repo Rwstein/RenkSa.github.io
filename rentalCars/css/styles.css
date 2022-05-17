@@ -141,6 +141,9 @@ img{
   border-color: var(--first-color);
 }
 
+#mainSlider .carousel-indicators .active{
+  background-color: var(--first-color);
+}
 
 .home__titler{ 
   
