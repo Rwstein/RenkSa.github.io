@@ -220,8 +220,33 @@ img{
     box-shadow: 0 4px 4px rgba(0,0,0,.1);
     border-radius: 0 0 1rem 1rem;
     z-index: var(--z-fixed);
-  }
 }
+
+.countainer{
+  padding: 20px 0;
+}
+
+#mainSlider .carrousel-inner, #mainSlider .carousel-item {
+  height: auto;
+}
+
+#mainSlider .carousel-caption h2 {
+  font-size: 28px;
+}
+
+#mainSlider .carousel-caption p {
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.carousel-caption {
+  left: 10%;
+  right: 10%;
+}
+
+
+}
+
 
 .nav__item{
   margin-bottom: var(--mb-2);
