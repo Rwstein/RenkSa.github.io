@@ -61,7 +61,6 @@
 
 html{
   scroll-behavior: smooth;
-  background-color: var(--body-color);
 }
 
 /*========== Button Dark/Light ==========*/
@@ -72,7 +71,7 @@ body{
   font-family: var(--text-color-red);
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
-  color: var(--text-color);
+  color: var(--first-color);
   line-height: 1.6;
 }
 
@@ -163,7 +162,7 @@ img{
 
 .section-title{
   font-size: var(--h1-font-size);
-  color: black;
+  color: var(--container-color);
   margin-bottom: var(--mb-3);
 }
 
@@ -243,8 +242,6 @@ img{
   left: 10%;
   right: 10%;
 }
-
-
 }
 
 
@@ -253,7 +250,7 @@ img{
 }
 
 .nav__link, .nav__logo, .nav__toggle{
-  color: var(--text-color);
+  color: var(--container-color);
   font-weight: var(--font-medium);
 }
 
@@ -298,7 +295,7 @@ img{
   justify-content: center;
   align-items: center;
   padding: .3rem;
-  background: rgba(6,156,84,.5);
+  background: #e21818;
   border-radius: .4rem;
   z-index: var(--z-tooltip);
   transition: .3s;
@@ -306,11 +303,15 @@ img{
 }
 
 .scrolltop:hover{
-  background-color: var(--first-color-alt);
+  background-color: var(--container-color);
 }
 
 .scrolltop__icon{
   font-size: 1.8rem;
+  color: var(--container-color);
+}
+
+.scrolltop__icon:hover {
   color: var(--body-color);
 }
 
@@ -340,7 +341,7 @@ img{
 
 .home__subtitle{
   font-size: var(--h1-font-size);
-  color: var(--title-color);
+  color: var(--container-color);
   margin-bottom: var(--mb-4);
 }
 
@@ -352,60 +353,6 @@ img{
 
 #far fa-calendar-alt{
   size: 7x;
-}
-
-/*========== BUTTONS ==========*/
-.button{
-  display: inline-block;
-  background-color: var(--first-color);
-  color: #FFF;
-  padding: .75rem 1rem;
-  border-radius: .5rem;
-  transition: .3s;
-}
-
-.button1{
-	margin-right: 15px;
-  display: inline-block;
-  background-color: var(--first-color);
-  color: #FFF;
-  padding: .75rem 1rem;
-  border-radius: .5rem;
-  transition: .3s;
-}
-
-.button2{
- display: inline-block;
-  background-color: var(--first-color);
-  color: #FFF;
-  padding: .75rem 1rem;
-  border-radius: .5rem;
-  transition: .3s;
-  margin-left: 30px;
-  margin: 10px;
-}
-
-.button3{
-	margin: 20px;
-  display: inline-block;
-  background-color: var(--first-color);
-  color: #FFF;
-  padding: .75rem 1rem;
-  border-radius: .5rem;
-  transition: .3s;
-}
-
-.button:hover{
-  background-color: var(--first-color-alt);
-}
-.button1:hover{
-  background-color: var(--first-color-alt);
-}
-.button2:hover{
-  background-color: var(--first-color-alt);
-}
-.button3:hover{
-  background-color: var(--first-color-alt);
 }
 
 /*========== SERVICES ==========*/
@@ -427,7 +374,7 @@ img{
 
 .services__title{
   font-size: var(--h3-font-size);
-  color: var(--title-color);
+  color: var(--container-color);
   margin-bottom: var(--mb-1);
 }
 
@@ -445,7 +392,7 @@ img{
   position: relative;
   display: flex;
   flex-direction: column;
-  background-color: var(--container-color);
+  background-color: var(--text-color);
   border-radius: .5rem;
   box-shadow: 0 2px 4px rgba(3,74,40,.15);
   padding: .75rem;
@@ -454,12 +401,11 @@ img{
 }
 
 .item{
-  width: 200px;
-}
-
-div .item:hover{
-  background-position: 0px 0px;
-	background-size: 500px 500px;
+  display: flex;
+  align-items: center;
+  width: 300px;
+  justify-content: center;
+  flex-direction: column;
 }
 
 
