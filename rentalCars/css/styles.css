@@ -794,10 +794,20 @@ p {
 }
 
 @media (min-width: 1200px){
-.container{
-    max-width: 1140px;
-    margin-top: 210px;
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+    height: 100vh;
 }
+
+.container{
+    margin-top: 30%;
+    max-width: 1140px;
+}
+
+.section-title{
+  margin-top: 240px;
+}
+
 .row {
   margin-top: -50px;
   margin-bottom: 20px;
