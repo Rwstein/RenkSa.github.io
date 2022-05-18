@@ -519,16 +519,36 @@ img{
 }
 
 /*========== CONTACT ==========*/
-
-
-.contact__container, .contact_container span{
+#contact-area{
   text-align: center;
-  color: #fff;
 }
 
-.contact__description{
-  margin-bottom: var(--mb-3);
+.contact__box{
+  padding-bottom: 50px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid var(--first-color);
 }
+
+.contact-box i{
+  color: #fff;
+  border: solid 1px #FFF;
+  border-radius: 50%;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-box p {
+  font-size: 16px;
+}
+
+.contact-title{
+  font-weight: bold;
+  color: #3ec1d5;
+}
+
 
 /*========== FOOTER ==========*/
 .footer__container{
@@ -549,8 +569,8 @@ img{
 
 .footer__description{
   display: block;
-  font-size: var(--small-font-size);
   margin: .25rem 0 var(--mb-3);
+  margin-top: 30%;
 }
 
 .footer__social{
@@ -587,6 +607,33 @@ img{
   color: var(--text-color-light);
   margin-top: 3.5rem;
 }
+
+.container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.col-md-6 {
+  padding: 0%;
+}
+
+iframe {
+  margin-top: 20px;
+}
+
+.about-title{
+  color: #FFF;
+  margin-bottom: 5%;
+}
+
+p {
+  color: #FFF;
+  font-size: 20px;
+}
+
+
 
 /*========== MEDIA QUERIES ==========*/
 @media screen and (min-width: 576px){
