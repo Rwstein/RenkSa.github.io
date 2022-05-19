@@ -853,6 +853,15 @@ footer {
 
 .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl{
   margin-bottom: 50px;
+  margin-top: 323px !important;
+}
+
+.contact-container{
+  margin-top: 118px;
+}
+
+.services-area{
+  margin-top: -500px;
 }
 
 .carousel-indicators{
@@ -864,11 +873,15 @@ footer {
 } 
 
 .section-sub{
-  margin-bottom: 90px;
+  margin-bottom: 69px;
 }
 
 footer{
   margin-top: -63px;
+}
+
+.footer__description{
+  margin-left: 130px;
 }
 
 .gps-title{
