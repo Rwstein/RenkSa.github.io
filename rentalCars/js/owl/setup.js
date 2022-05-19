@@ -4,7 +4,9 @@ owl.owlCarousel({
     items:3,
     loop:true,
     nav:false,
-    margin: 80,
+    margin:100,
+    autoplay:true,
+    autoplayTimeout:2000,
     responsive:{
         0:{
             items:1

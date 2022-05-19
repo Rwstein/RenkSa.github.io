@@ -106,11 +106,13 @@ img{
   height: 90vh;
 }
 
+.owl-carousel .owl-item{
+  transform: scale(0.2);
+  transition: 0.5s;
+}
 
-
-.owl-carousel.owl-item{
-  transform: scale(0.6);
-  transition: 0.3s;
+.owl-carousel .owl-item.active.center{
+  transform: scale(1.3);
 }
 
 #mainSlider .carousel-caption {
@@ -174,6 +176,7 @@ img{
     font-size: var(--h1-font-size);
     color: var(--container-color);
     margin-bottom: -100px;
+    margin-top: -95px;
   }
 
 .gps-title{
