@@ -864,7 +864,7 @@ footer {
 }
 
 .carousel-indicators{
-  top: 240px;
+  top: 218px;
 }
 
 .gps-container{
@@ -885,7 +885,7 @@ footer{
 }
 
 .footer__description{
-  margin-left: 101px;
+  margin-left: 84px;
 }
 
 .gps-title{
@@ -901,7 +901,7 @@ h3{
   }
 
   #mainSlider .carousel-caption{
-    top: 25px;
+    top: 5px;
   }
 
   #mainSlider .carousel-caption h2 {
