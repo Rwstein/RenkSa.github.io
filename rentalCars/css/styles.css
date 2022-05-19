@@ -378,7 +378,7 @@ img{
 .service-box{
   text-align: center;
   margin-bottom: 70px;
-  color: #fff;
+  color: #FFF;
 }
 
 .service-box i, .service-box h4 {
@@ -793,6 +793,7 @@ p {
 
 @media (min-width: 1200px){
 
+  
 .section-sub{
   margin-bottom: 90px;
   margin-top: -50px;
