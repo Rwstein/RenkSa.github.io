@@ -838,7 +838,7 @@ footer {
   margin-bottom: 50px;
 }
 
-@media(max-width: 460px) {
+@media screen and (max-width: 460px) {
 
 .nav__menu{
  margin-left: 170px !important;
@@ -856,33 +856,40 @@ footer {
 }
 
 .carousel-indicators{
-  top: auto;
+  top: 270px;
 }
 
 #mainSlider .carousel-inner, #mainSlider .carousel-item {
-  height: auto; 
-  margin-bottom: 170px;
+  height: auto;
 } 
 
+.section-sub{
+  margin-bottom: 90px;
+}
+
 footer{
-  margin-top: -180px;
+  margin-top: -63px;
+}
+
+.gps-title{
+  margin-bottom: 64px;
+}
+
+h3{
+  margin-bottom: 1.5rem;
 }
 
   #mainSlider {
     margin-top: 90px;
   }
 
-  #mainSlider .carousel-caption {
-    top: 5%;
+  #mainSlider .carousel-caption{
+    top: 25px;
   }
 
   #mainSlider .carousel-caption h2 {
     font-size: 18px;
     margin-bottom: 40px;
-  }
-
-  #mainSlider .carousel-caption p {
-    display: none;
   }
 
   .carousel-caption .main-btn {
