@@ -107,6 +107,12 @@ img{
   height: auto;
 }
 
+.fa-brands, .fab {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 400;
+  font-size: 100px;
+  margin-bottom: 40px;
+}
 /*========== CLASS GIFS ==========*/
 .lGif {
 	width: 128px;
