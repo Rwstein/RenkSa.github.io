@@ -106,6 +106,13 @@ img{
   height: 90vh;
 }
 
+
+
+.owl-carousel.owl-item{
+  transform: scale(0.6);
+  transition: 0.3s;
+}
+
 #mainSlider .carousel-caption {
   top: 30%;
 }
@@ -651,9 +658,18 @@ iframe {
   margin-bottom: 5%;
 }
 
+.item p{
+  color: var(--first-color);  
+  font-size: 20px;  
+}
+
 p {
-  color: #FFF;
+  color: var(--container-color);  
   font-size: 20px;
+}
+
+.item h4 {
+  color: var(--container-color);
 }
 
 

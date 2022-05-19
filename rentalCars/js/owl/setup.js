@@ -1,5 +1,7 @@
 var owl = $('.owl-carousel');
 owl.owlCarousel({
+    center:true,
+    items:3,
     loop:true,
     nav:false,
     margin: 80,
