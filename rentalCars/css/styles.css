@@ -176,7 +176,6 @@ img{
   margin-bottom: -100px;
 }
 
-
 .section-title{
   font-size: var(--h1-font-size);
   color: var(--container-color);
@@ -865,7 +864,12 @@ footer {
 }
 
 .carousel-indicators{
-  top: 270px;
+  top: 240px;
+}
+
+.gps-container{
+ margin-left: 20px;
+ text-align: center;
 }
 
 #mainSlider .carousel-inner, #mainSlider .carousel-item {
@@ -881,7 +885,7 @@ footer{
 }
 
 .footer__description{
-  margin-left: 130px;
+  margin-left: 101px;
 }
 
 .gps-title{
@@ -902,7 +906,7 @@ h3{
 
   #mainSlider .carousel-caption h2 {
     font-size: 18px;
-    margin-bottom: 40px;
+    margin-bottom: 24px;
   }
 
   .carousel-caption .main-btn {
