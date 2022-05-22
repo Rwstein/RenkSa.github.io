@@ -280,6 +280,11 @@ img{
 }
 
 /*========== HOME ==========*/
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #03f5a0 !important;
+}
+
 .home__container{
   height: calc(100vh - var(--header-height));
   align-content: center;
