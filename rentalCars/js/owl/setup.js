@@ -11,6 +11,9 @@ owl.owlCarousel({
         0:{
             items:1
         },
+        500:{
+            items:3
+        },
         600:{
             items:2
         },            
