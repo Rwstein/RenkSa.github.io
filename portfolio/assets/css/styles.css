@@ -409,17 +409,31 @@ img{
   justify-content: center;
 }
 
+.grid-4{
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+}
+
 .menu__content{
   position: relative;
   display: flex;
   flex-direction: column;
   background-color: var(--container-color);
   border-radius: .5rem;
-  box-shadow: 0 2px 4px rgba(3,74,40,.15);
-  padding: .75rem;
-  box-shadow: 0 0 1em rgb(252, 236, 17);
-
+  border: #FFF;
+  box-shadow: 4px 4px 10px 0px #121f42;
+  transition: 0.5s !important;
+  padding: 20px;
 }
+
+.box-content:hover{
+  box-shadow: 20px 10px 20px 0px #0847f5;
+}
+
+.owl-carousel .owl-item img{
+  padding: 20px;
+}
+
 
 
 .menu__img{
@@ -620,6 +634,13 @@ img{
     grid-template-columns: repeat(3, 210px);
     column-gap: 4rem;
   }
+
+.grid-4{
+  grid-template-columns: repeat(4, 210px);
+  column-gap: 4rem;
+
+}
+
   .menu__content{
     padding: 1.5rem;
   }
