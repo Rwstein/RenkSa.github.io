@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+  
+  .bg-primary-color {
+    background-color: #fff;
+  }
+  
+  .bg-secondary-color {
+    background-color: #ece8e2;
+  }
+  
+  .bg-dark-color {
+    background-color: #050505;
+  }
+  
+  .primary-color {
+    color: #050505;
+  }
+  
+  .secondary-color {
+    color: #7a7a7a;
+  }
+
+span, a, h1, h2, h3 {
+    color: #34eb0f;
+}
+
+
+
+  /*============== navbar ================*/
+  
+  #navbar a {
+    color: #f7f7f7;
+  }
+  
+  #navbar a:hover {
+    color: #7a7a7a;
+  }
+  
+  #navbar .active {
+    border-bottom: 1px solid #050505;
+  }
+  
+  .navbar-brand {
+    display: flex;
+  }
+  
+  .navbar-brand img {
+    width: 100px;
+  }
+  
+  .navbar-brand span {
+    font-weight: 700;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+  }
+  
+  #navbar-items .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+  }
+  
+  #navbar-items .nav-item {
+    margin: 0 1em;
+  }
+
+/*      home        */
+
+.perfil-img{
+  width: 100%;
+  margin-top: 110px;
+  display: flex;
+}
+
+.carousel-caption {
+  right: 40% !important;
+  bottom: 1.25rem !important;
+  padding-bottom: 10.5rem !important;
+  color: #1af10b !important;
+  text-align: end !important;
+  right: 10% !important;
+}
+
+.carousel-caption h2{
+  font-size: 50pt;
+  font: bolder;
+}
+
+.carousel-caption p{
+  font-size: 20pt;
+}
+
+div#home {
+  margin-top: 82px;
+}
+
+.home-img {
+  position: absolute !important;
+  bottom: -134px;
+  left: 113px;
+  border: 5px solid #1af10b;
+  border-radius: 50%;
+}
