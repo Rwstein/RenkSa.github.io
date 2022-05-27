@@ -20,6 +20,11 @@
     <title>The Trainer</title>
 </head>
 <body>
+
+  <div class="progress">
+    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+  </div>
+
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg fixed-top bg-dark-color" id="navbar">
       <div class="container">
@@ -58,15 +63,18 @@
     </nav>
 <main class="main" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" tabindex="0">
 
-<div class="home" id="home">
-  <div class="carousel-caption d-md-block">
-    <h2>Rafael Bruno</h2>
-    <p>Personal Trainer</p>
-  </div>        
-            <img class="d-block img-fluid" src="img/sep12.jpg" alt="perfil-icone">
-            <img class="home-img" src="img/home-img.png" alt="">  
-                      
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/img-home.jpg" class="img-just hd-block img-fluid" alt="...">
+        <div class="carousel-caption d-md-block">
+          <h5>Rafael Sá</h5>
+          <p> Personal Trainer </p>
         </div>
+        
+      </div>
+    </div>
+  </div>
 
 <section class="menu section bd-container" id="services-area">
         <h2 class="section-sub">Nossos Serviços</h2>

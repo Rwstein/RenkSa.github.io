@@ -25,6 +25,27 @@ span, a, h1, h2, h3 {
     color: #34eb0f;
 }
 
+body {
+
+}
+
+/*============== preloader ================*/
+.c-loader{
+  animation: is-rotating 1s infinite;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 6px solid #e5e5e5;
+  border-top: #1af10b;
+
+}
+
+@keyframes is-rotating{
+  to{
+    transform: rotate(1turn);
+  }
+}
+
 
 
   /*============== navbar ================*/
@@ -68,38 +89,99 @@ span, a, h1, h2, h3 {
 
 /*      home        */
 
-.perfil-img{
-  width: 100%;
-  margin-top: 110px;
-  display: flex;
+
+
+.carousel-caption {
+  bottom: 14.25rem !important;
+  color: #1af10b !important;
+  text-align: end !important;
+  right: 28% !important;
+}
+
+.carousel-caption h5 {
+  font-size: 50pt;
+  box-shadow: 5px solid #88f180;
+}
+
+.carousel-caption p {
+  font-size: 15pt;
+}
+
+
+.img-just{
+  margin-top: 61px;
+}
+
+.img-abs {
+  position: absolute;
+  top: 169px;
+  left: 110px;
+  transition: 0.5s;
+  border: 5px solid #34eb0f;
+  border-radius: 50%;
+  box-shadow: 10px solid #89eb82;
+
+}
+
+.nav-pills {
+  --bs-nav-pills-border-radius: 1.5rem !important;
+  --bs-nav-pills-link-active-bg: #34eb0f !important;
+}
+
+button.navbar-toggler {
+  color: #34eb0f;
+}
+
+
+@media Screen and (max-width: 576px) { 
+
+.img-just {
+  width: 100vh;
+  margin-top: 59px;
+}
+
+.img-abs {
+  position: absolute;
+  top: 112px;
+  left: 36px;
+  transition: 0.5s;
+  border: 5px solid #34eb0f;
+  border-radius: 50%;
+  box-shadow: 10px solid #89eb82;
+  width: 150px;
 }
 
 .carousel-caption {
-  right: 40% !important;
-  bottom: 1.25rem !important;
-  padding-bottom: 10.5rem !important;
-  color: #1af10b !important;
-  text-align: end !important;
-  right: 10% !important;
+  top: 92px;
+  right: 24% !important;
 }
 
-.carousel-caption h2{
-  font-size: 50pt;
-  font: bolder;
-}
-
-.carousel-caption p{
+.carousel-caption h5{
   font-size: 20pt;
 }
 
-div#home {
-  margin-top: 82px;
+.carousel-caption p{
+  font-size: 10pt;
 }
 
-.home-img {
-  position: absolute !important;
-  bottom: -134px;
-  left: 113px;
-  border: 5px solid #1af10b;
-  border-radius: 50%;
+}
+
+
+@media (max-width: 768px) {
+  
+}
+
+
+@media (max-width: 992px) { 
+  
+}
+
+
+@media (max-width: 1200px) {
+  
+}
+
+
+@media (max-width: 1400px) {
+  
 }
