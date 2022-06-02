@@ -49,6 +49,14 @@ function scrollTop(){
 }
 window.addEventListener('scroll', scrollTop)
 
+
+function scrollwhats(){
+    const scrollwhats = document.getElementById('scroll-whats');
+    if(this.scrollY >= 3200) scrollwhats.classList.add('call-whats'); else scrollwhats.classList.remove('call-whats')
+}
+window.addEventListener('scroll', scrollwhats)
+
+
 const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
 const iconTheme = 'bx-sun'
