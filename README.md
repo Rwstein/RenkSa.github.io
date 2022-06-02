@@ -6,4 +6,4 @@
 
 <br>
 
-<div align="center"> <img src="https://user-images.githubusercontent.com/82468145/171634040-7a282c07-250b-4c7f-924a-a4c09311b48f.gif" width="500"></div>
+<div align="center"> <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgiphy.com%2Fexplore%2Ftecnico-programador&psig=AOvVaw3sii0t1qCJVY_Pk3xsX8Bn&ust=1654261056292000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCPiP9eXojvgCFQAAAAAdAAAAABAD" width="500"/></div>
