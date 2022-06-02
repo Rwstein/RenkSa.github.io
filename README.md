@@ -6,4 +6,4 @@
 
 <br>
 
-<div align="center"> <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgiphy.com%2Fexplore%2Ftecnico-programador&psig=AOvVaw3sii0t1qCJVY_Pk3xsX8Bn&ust=1654261056292000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCPiP9eXojvgCFQAAAAAdAAAAABAD" width="500"/></div>
+<div align="center"> <img src="https://media2.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47yo4wkhbep2ktwb3nz9572hzxug1iy4nepw4v8edj&rid=giphy.gif&ct=g" width="500" /></div>
