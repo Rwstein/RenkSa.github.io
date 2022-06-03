@@ -49,6 +49,15 @@ function scrollTop(){
 }
 window.addEventListener('scroll', scrollTop)
 
+window.addEventListener('scroll', scrollHeader)
+
+function Whatsapplink(){
+  const Whatsapplink = document.getElementById('whats-link');
+  if(this.scrollY >= 500) Whatsapplink.classList.add('whats-scroll'); else Whatsapplink.classList.remove('whats-scroll')
+}
+window.addEventListener('scroll', Whatsapplink)
+
+
 const themeButton = document.getElementById('theme-button')
 const darkTheme = 'dark-theme'
 const iconTheme = 'bx-sun'

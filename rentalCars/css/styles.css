@@ -557,32 +557,46 @@ img{
 
  @-webkit-keyframes heartbeat{from{-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:center center;transform-origin:center center;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}10%{-webkit-transform:scale(.91);transform:scale(.91);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}17%{-webkit-transform:scale(.98);transform:scale(.98);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}33%{-webkit-transform:scale(.87);transform:scale(.87);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}45%{-webkit-transform:scale(1);transform:scale(1);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}@keyframes heartbeat{from{-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:center center;transform-origin:center center;-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}10%{-webkit-transform:scale(.91);transform:scale(.91);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}17%{-webkit-transform:scale(.98);transform:scale(.98);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}33%{-webkit-transform:scale(.87);transform:scale(.87);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}45%{-webkit-transform:scale(1);transform:scale(1);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}
 
-.Whatsapp-link{
+.Whatsapplink{
   position: fixed;
-  width: 60px;
-  height: 60px;
+  font-size: 25px;
+  right: 1rem;
   bottom: 20px;
-  right: 12px;
-  background-color: #25d366;
-  color: var(--container-color);
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 19px;
+  background: #27ce27;
   border-radius: 50%;
-  text-align: center;
-  font-size: 30px;
-  box-shadow: 1px 1px 2px #888;
-  z-index: 1000;
-  transition: 0.5s;
+  z-index: var(--z-tooltip);
+  transition: .3s;
+  color: #FFF;
+  text-decoration: none;
 }
 
+.Whatsapplink:hover{
+  color: #e21818;
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  font-size: 80px;
+}
+
+.whats-scroll{
+  visibility: hidden;
+  bottom: 1.5rem;
+}
+
+
 .scrolltop{
-  right: 8rem;
+  right: 1rem;
 }
 
 .fa-whatsapp{
   margin-top: 16px;
-}
-
-.fa-whatsapp:hover {
-  color: #FFF;
 }
 
 .contact__box{
@@ -628,6 +642,10 @@ img{
   justify-content: center;
   display: flex;
   width: 200px;
+}
+
+.fa-solid{
+  font-size: 30px;
 }
 
 .footer__logo{
@@ -676,6 +694,8 @@ img{
   color: var(--text-color-light);
   margin-top: 3.5rem;
 }
+
+
 
 .container{
   display: flex;
@@ -919,9 +939,7 @@ footer {
     }
 }
 
-.fa-solid, .fas {
-  margin-bottom: 50px;
-}
+
 
 @media screen and (max-width: 460px) {
 
