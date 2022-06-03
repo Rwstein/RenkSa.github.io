@@ -6,4 +6,5 @@
 
 <br>
 
-<div align="center"> <img src="https://media2.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e47yo4wkhbep2ktwb3nz9572hzxug1iy4nepw4v8edj&rid=giphy.gif&ct=g" width="500" /></div>
+
+![que-hacer-para-convertirse-en-ingeniero-en-sistemas-desarrollador-de-sistemas-computacionales-programacion-informatica](https://user-images.githubusercontent.com/82468145/171640053-3fda5b27-6b35-434c-904d-74d98fb940c0.gif)
