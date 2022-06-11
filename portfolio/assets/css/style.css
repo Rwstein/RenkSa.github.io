@@ -5,6 +5,10 @@ canvas{
 
 .home__data {
     z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -60px;
 }
 
 /* ---- stats.js ---- */

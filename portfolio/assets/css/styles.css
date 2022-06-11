@@ -362,6 +362,9 @@ img{
   width: 200px;
   margin-top: 100px;
   justify-self: center;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px #719be8;
 }
 
 #far fa-calendar-alt{
@@ -632,6 +635,13 @@ img{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
   }
+
+  .home__data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -60px;
+}
 
   .about__data, .about__initial,
   .app__data, .app__initial,
