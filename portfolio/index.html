@@ -1,317 +1,321 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <meta charset="utf-8">
+  <title>RWS | Portifólio</title>
+  <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
+  <meta name="author" content="Renk Sá" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <!--========== CSS ==========-->
+  <link rel="stylesheet" media="screen" href="assets/css/style.css">
+  <link rel="stylesheet" media="screen" href="assets/css/styles.css">
+  <!--========== CAIXA DE ÍCONES ==========-->
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
 
-        <!--========== CAIXA DE ÍCONES ==========-->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+  <!--========== FAVICOM ==========-->
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
 
-        <!--========== FAVICOM ==========-->
-        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
-
-        <!--========== CSS ==========-->
-        <link rel="stylesheet" href="assets/css/styles.css">
-
-        <title>RWS | Portifólio</title>
-
-        <!--Owl css-->
-    <link rel="stylesheet" href="assets/css/owl/owl.carousel.min.css">
-    <link rel="stylesheet" href="assets/css/owl/owl.theme.default.min.css">
-
-    </head>
+  <!--Owl css-->
+  <link rel="stylesheet" href="assets/css/owl/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl/owl.theme.default.min.css">
+</head>
 <body>
 
+
        <!--========== SCROLL TOP ==========-->
-        <a href="#" class="scrolltop" id="scroll-top">
-            <i class='bx bx-chevron-up scrolltop__icon'></i>
-        </a>
+       <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up scrolltop__icon'></i>
+    </a>
 
-        <a href="https://wa.me/5593992085930" target="_blank" class="scrollwhats pulsate-bck slide-in-blurred-right" id="scroll-whats">
-            <i class="bi bi-whatsapp call-whats"></i>
-        </a>
+    <a href="https://wa.me/5593992085930" target="_blank" class="scrollwhats pulsate-bck slide-in-blurred-right" id="scroll-whats">
+        <i class="bi bi-whatsapp call-whats"></i>
+    </a>
 
 
+    
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo">Front-end Web</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Sobre mim</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Projetos</a></li>
+                    <li class="nav__item"><a href="#curriculo" class="nav__link">Meu Currículo</a></li>
+                    <li class="nav__item"><a href="#Certificados" class="nav__link">Certificados</a></li>                        
+                    <li class="nav__item"><a href="#contato" class="nav__link">Contato</a></li>
+                                
+                    <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                </ul>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--========== HOME ==========-->
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid"><div id="particles-js"></div>
+               <div class="home__data">
+                    <h1 class="home__title">Olá,</h1>
+                    <h2 class="home__subtitle">Eu sou  <br> Renk Willy da Mota Sá </h2>
+                    <a href="#menu" class="button">Ver projetos</a>
+                </div>
+
+                <img src="assets/img/Eu.png" class="home__img" alt="imagem de perfil">
+            </div>
+        </section>
         
-        <!--========== HEADER ==========-->
-        <header class="l-header" id="header">
-            <nav class="nav bd-container">
-                <a href="#" class="nav__logo">Front-end Web</a>
-
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">Sobre mim</a></li>
-                        <li class="nav__item"><a href="#menu" class="nav__link">Projetos</a></li>
-                        <li class="nav__item"><a href="#curriculo" class="nav__link">Meu Currículo</a></li>
-                        <li class="nav__item"><a href="#Certificados" class="nav__link">Certificados</a></li>                        
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
-                        						
-                        <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
-                    </ul>
+        <!--========== ABOUT ==========-->
+        <section class="about section bd-container" id="about">
+            <div class="about__container  bd-grid">
+                <div class="about__data">
+                    <span class="section-subtitle about__initial"></span>
+                    <h2 class="section-title about__initial">Sobre mim</h2>
+                    <p class="about__description">Estudante de Desenvolvimento Web, me disciplinando nos estudos em HTML-CSS3-Javascript, básico na Linguagem Java, fiz alguns projetos em Java, Foco, Disciplina e Atenção.</p>
+                    <a href="#" class="button">Ver meu histórico</a>
                 </div>
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-            </nav>
-        </header>
 
-        <main class="l-main">
-            <!--========== HOME ==========-->
-            <section class="home" id="home">
-                <div class="home__container bd-container bd-grid">
-                    <div class="home__data">
-                        <h1 class="home__title">Olá,</h1>
-                        <h2 class="home__subtitle">Eu sou  <br> Renk Willy da Mota Sá </h2>
-                        <a href="#menu" class="button">Ver projetos</a>
-                    </div>
+                <img src="assets/img/coding.gif" alt="imagem programador" class="about__img">
+            </div>
+        </section>
+
+
+        <!--========== Projetos ==========-->
+        <section class="menu section bd-container" id="work">
+            <span class="section-subtitle">Acesse meu Github para ter acesso a todos os projetos. 
+            <h2 class="section-title">Preview</h2>
+
+            <div class="grid-4 bd-grid">
+                <div class="menu__content box-content">                        
+                    <a href="https://github.com/RenkSa/dsmovie" target="_blank" class="menu__name"><img src="https://cdn2.iconfinder.com/data/icons/programming-languages-8/64/207_programming-program-language-code-typescript-512.png" alt="imagem icone TS">                        
+                     Site - Avaliador de Filmes </a>                        
+                </div>
+                
+                <div class="menu__content box-content">
+                    <a href="https://github.com/RenkSa/RenkSa.github.io/tree/main/P%C3%A1gina%20do%20Instagram" target="_blank" class="menu__name"><img src="https://cdn2.iconfinder.com/data/icons/neon-line-social-circles/100/Neon_Line_Social_Circles-Instagram_50-256.png" alt="imagem icone instagram">
+                     Página Inicial do Instagram </a>
+                </div>
+
+                <div class="menu__content box-content">
+                    <a href="https://github.com/RenkSa/RenkSa.github.io/tree/main/portfolio" target="_blank" class="menu__name"><img src="assets/img/portifolioico.png" alt="imagem perfil">                  
+                     Portifólio </a>                        
+                </div>
+
+                <div class="menu__content box-content">
+                    <a href="https://github.com/RenkSa/RenkSa.github.io/tree/main/Netflix" target="_blank" class="menu__name"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCOngqnspIrHcXiOU8-7FWgFfZZuZu9YYUhw&usqp=CAU" alt="img monitor perfil">
+                     Interface Netflix </a>
+                </div>
+                
+                <div class="menu__content box-content">
+                    <a href="https://github.com/RenkSa/RenkSa.github.io/tree/main/googleglass" target="_blank" class="menu__name"><img src="https://cdn-icons-png.flaticon.com/512/46/46119.png" alt="óculos google glass">                        
+                     Site GoogleGlass </a>                        
+                </div>
+
+                <div class="menu__content box-content">
+                    <br>  
+                    <a href="https://github.com/RenkSa/aula_booststrap" target="_blank" class="menu__name"><img src="https://www.pngkit.com/png/detail/776-7768954_logout-icon-in-bootstrap-bootstrap.png" alt="icone bootstrap"><br>                        
+                     Utilizando Bootstrap </a>                        
+                </div>
+
+                <div class="menu__content box-content">
+                    <br>  
+                    <a href="https://github.com/RenkSa/RenkSa.github.io/tree/main/snakeGame" target="_blank" class="menu__name"><img src="assets/img/snakegame.png" alt="img jogo da cobrinha"><br>                        
+                     Snake Game </a>                        
+                </div>
+
+                <div class="menu__content box-content">                    
+                    <a href="https://github.com/RenkSa/RenkSa.github.io/tree/main/rentalCars" target="_blank" class="menu__name"><i class="fa-brands fa-bootstrap"></i>                    
+                     Landing-Page </a>                        
+                </div>
+
+                <div class="menu__content box-content">                    
+                    <a href="https://github.com/RenkSa/RenkSa.github.io/tree/main/DioOrkut" target="_blank" class="menu__name"><img src="assets/img/icOrkut.png" alt="logo Orkut">                   
+                     Recriando Interface do Orkut </a>                        
+                </div>
+
+                <div class="menu__content box-content">                    
+                    <a href="https://github.com/RenkSa/RenkSa.github.io/tree/main/SpiderMan" target="_blank" class="menu__name"><img src="assets/img/spider-man-03.png" width="100px" alt="SpiderMan">                   
+                     Multiverso | Interface </a>                        
+                </div>
+
+                
+            </div>
+        </section>
+  
+  <!--========== Currículo ==========-->
+        <section class="contact section bd-container" id="curriculo">
+            <div class="contact__container bd-grid">
+                <div class="contact__data">
+                    <span class="section-subtitle contact__initial">Curriculum Vitae</span>
+                    <h2 class="section-title contact__initial">Currículos</h2>
+                </div>
+                    
+               <div class="contact__button">
+        <img src="assets/img/linkedin.gif" class="lGif" alt="gif linkedin">
+        <img src="assets/img/pdf_icon.gif" class="pGif" alt="gif Curriculum">
+        
+        <a href="curriculos/RenkSaCurriculum.pdf" target="_blank" class="button2">CV Linkedin</a>
+                    <a href="curriculos/CurriculumRWS.pdf" target="_blank" class="button3">CV Detalhado</a>               
+      </div>
+      
+            </div>
     
-                    <img src="assets/img/Eu.png" class="home__img" alt="imagem de perfil">
+        </section>
+  
+  <!--========== Menu Certificados ==========-->
+        <section class="menu section bd-container" id="Certificados">
+            <span class="section-subtitle">Aqui estão alguns certificados. 
+            <h2 class="section-title">Certificados DIO</h2>
+
+            <div class="owl-carousel owl-theme menu__container bd-grid menu__content">
+                <div class="item">
+                    <img src="assets/img/DIO.png" alt="">
+                    <a href="https://www.dio.me/certificate/09FE0A13/share" target="_blank" class="menu__name"> Bancos de dados PostgreSQL</a>
                 </div>
-            </section>
-            
-            <!--========== ABOUT ==========-->
-            <section class="about section bd-container" id="about">
-                <div class="about__container  bd-grid">
-                    <div class="about__data">
-                        <span class="section-subtitle about__initial"></span>
-                        <h2 class="section-title about__initial">Sobre mim</h2>
-                        <p class="about__description">Estudante de Desenvolvimento Web, me disciplinando nos estudos em HTML-CSS3-Javascript, básico na Linguagem Java, fiz alguns projetos em Java, Foco, Disciplina e Atenção.</p>
-                        <a href="#" class="button">Ver meu histórico</a>
-                    </div>
-
-                    <img src="assets/img/coding.gif" alt="imagem programador" class="about__img">
+                <div class="item">
+                    <img src="assets/img/DIO.png" alt="">
+                    <a href="https://certificates.digitalinnovation.one/9E4773EC" target="_blank" class="menu__name">SQL SERVER (Básico)</a>
                 </div>
-            </section>
-
-
-            <!--========== Projetos ==========-->
-            <section class="menu section bd-container" id="menu">
-                <span class="section-subtitle">Acesse meu Github para ter acesso a todos os projetos. 
-                <h2 class="section-title">Preview</h2>
-
-                <div class="grid-4 bd-grid">
-                    <div class="menu__content box-content">                        
-                        <a href="https://github.com/RenkSa/dsmovie" target="_blank" class="menu__name"><img src="https://cdn2.iconfinder.com/data/icons/programming-languages-8/64/207_programming-program-language-code-typescript-512.png" alt="imagem icone TS">                        
-                         Site - Avaliador de Filmes </a>                        
-                    </div>
-                    
-                    <div class="menu__content box-content">
-                        <a href="https://github.com/RenkSa/RenkSa.github.io/tree/main/P%C3%A1gina%20do%20Instagram" target="_blank" class="menu__name"><img src="https://cdn2.iconfinder.com/data/icons/neon-line-social-circles/100/Neon_Line_Social_Circles-Instagram_50-256.png" alt="imagem icone instagram">
-                         Página Inicial do Instagram </a>
-                    </div>
-
-                    <div class="menu__content box-content">
-                        <a href="https://github.com/RenkSa/RenkSa.github.io/tree/main/portfolio" target="_blank" class="menu__name"><img src="assets/img/portifolioico.png" alt="imagem perfil">                  
-                         Portifólio </a>                        
-                    </div>
-
-                    <div class="menu__content box-content">
-                        <a href="https://github.com/RenkSa/RenkSa.github.io/tree/main/Netflix" target="_blank" class="menu__name"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCOngqnspIrHcXiOU8-7FWgFfZZuZu9YYUhw&usqp=CAU" alt="img monitor perfil">
-                         Interface Netflix </a>
-                    </div>
-                    
-                    <div class="menu__content box-content">
-                        <a href="https://github.com/RenkSa/RenkSa.github.io/tree/main/googleglass" target="_blank" class="menu__name"><img src="https://cdn-icons-png.flaticon.com/512/46/46119.png" alt="óculos google glass">                        
-                         Site GoogleGlass </a>                        
-                    </div>
-
-                    <div class="menu__content box-content">
-                        <br>  
-                        <a href="https://github.com/RenkSa/aula_booststrap" target="_blank" class="menu__name"><img src="https://www.pngkit.com/png/detail/776-7768954_logout-icon-in-bootstrap-bootstrap.png" alt="icone bootstrap"><br>                        
-                         Utilizando Bootstrap </a>                        
-                    </div>
-
-                    <div class="menu__content box-content">
-                        <br>  
-                        <a href="https://github.com/RenkSa/RenkSa.github.io/tree/main/snakeGame" target="_blank" class="menu__name"><img src="assets/img/snakegame.png" alt="img jogo da cobrinha"><br>                        
-                         Snake Game </a>                        
-                    </div>
-
-                    <div class="menu__content box-content">                    
-                        <a href="https://github.com/RenkSa/RenkSa.github.io/tree/main/rentalCars" target="_blank" class="menu__name"><i class="fa-brands fa-bootstrap"></i>                    
-                         Landing-Page </a>                        
-                    </div>
-
-                    <div class="menu__content box-content">                    
-                        <a href="https://github.com/RenkSa/RenkSa.github.io/tree/main/DioOrkut" target="_blank" class="menu__name"><img src="assets/img/icOrkut.png" alt="logo Orkut">                   
-                         Recriando Interface do Orkut </a>                        
-                    </div>
-
-                    <div class="menu__content box-content">                    
-                        <a href="https://github.com/RenkSa/RenkSa.github.io/tree/main/SpiderMan" target="_blank" class="menu__name"><img src="assets/img/spider-man-03.png" width="100px" alt="SpiderMan">                   
-                         Multiverso | Interface </a>                        
-                    </div>
-
-                    
+                <div class="item">
+                    <img src="assets/img/DIO.png" alt="">
+                    <a href="https://hermes.digitalinnovation.one/certificates/632D60E3.pdf" target="_blank" class="menu__name">Internet com JavaScript</a>
                 </div>
-            </section>
-			
-			<!--========== Currículo ==========-->
-            <section class="contact section bd-container" id="curriculo">
-                <div class="contact__container bd-grid">
-                    <div class="contact__data">
-                        <span class="section-subtitle contact__initial">Curriculum Vitae</span>
-                        <h2 class="section-title contact__initial">Currículos</h2>
-                    </div>
-                        
-                   <div class="contact__button">
-						<img src="assets/img/linkedin.gif" class="lGif" alt="gif linkedin">
-						<img src="assets/img/pdf_icon.gif" class="pGif" alt="gif Curriculum">
-						
-						<a href="curriculos/RenkSaCurriculum.pdf" target="_blank" class="button2">CV Linkedin</a>
-                        <a href="curriculos/CurriculumRWS.pdf" target="_blank" class="button3">CV Detalhado</a>               
-					</div>
-					
+                 
+                <div class="item">
+                    <img src="assets/img/DIO.png" alt="">                        
+                    <a href="https://certificates.digitalinnovation.one/3B71F5AA" target="_blank" class="menu__name">Estrutura de Dados e Algoritmos</a>
                 </div>
-				
-            </section>
-		  
-		  <!--========== Menu Certificados ==========-->
-            <section class="menu section bd-container" id="Certificados">
-                <span class="section-subtitle">Aqui estão alguns certificados. 
-                <h2 class="section-title">Certificados DIO</h2>
-
-                <div class="owl-carousel owl-theme menu__container bd-grid menu__content">
-                    <div class="item">
-                        <img src="assets/img/DIO.png" alt="">
-                        <a href="https://www.dio.me/certificate/09FE0A13/share" target="_blank" class="menu__name"> Bancos de dados PostgreSQL</a>
-                    </div>
-                    <div class="item">
-                        <img src="assets/img/DIO.png" alt="">
-                        <a href="https://certificates.digitalinnovation.one/9E4773EC" target="_blank" class="menu__name">SQL SERVER (Básico)</a>
-                    </div>
-                    <div class="item">
-                        <img src="assets/img/DIO.png" alt="">
-                        <a href="https://hermes.digitalinnovation.one/certificates/632D60E3.pdf" target="_blank" class="menu__name">Internet com JavaScript</a>
-                    </div>
-                     
-                    <div class="item">
-                        <img src="assets/img/DIO.png" alt="">                        
-                        <a href="https://certificates.digitalinnovation.one/3B71F5AA" target="_blank" class="menu__name">Estrutura de Dados e Algoritmos</a>
-                    </div>
-                    <div class="item">
-                        <img src="assets/img/DIO.png" alt="">
-                        <a href="https://certificates.digitalinnovation.one/3ACC6046" target="_blank" class="menu__name">Introdução ao Git e ao GitHub</a>
-                    </div>
-					<div class="item">
-                        <img src="assets/img/DIO.png" alt="">
-                        <a href="https://www.dio.me/certificate/093A36DD/share" target="_blank" class="menu__name">Interface do Netflix </a>
-                    </div>
-                    <div class="item">
-                        <img src="assets/img/DIO.png" alt="">
-                        <a href="https://certificates.digitalinnovation.one/C62A117F" target="_blank" class="menu__name">Lógica de Programação Essencial</a>
-                    </div>                      
-                    <div class="item">
-                        <img src="assets/img/DIO.png" alt="">
-                        <a href="https://certificates.digitalinnovation.one/FD25340F" target="_blank" class="menu__name">Aceleração Global Dev #10 GFT</a>
-                    </div>
-                    <div class="item">
-                        <img src="assets/img/DIO.png" alt="">
-                        <a href="https://hermes.digitalinnovation.one/certificates/38D3625D.pdf" target="_blank" class="menu__name">Páginas para internet com Bootstrap</a>
-                    </div>                    
-                    <div class="item">
-                        <img src="assets/img/DIO.png" alt="">                                           
-                        <a href="https://hermes.digitalinnovation.one/certificates/9429C10C.pdf" target="_blank" class="menu__name">HTML5 e CSS3</a>
-                    </div>
-                    <div class="item">
-                        <img src="assets/img/DIO.png" alt="">
-                        <a href="https://www.dio.me/certificate/63D99E2D/share" target="_blank" class="menu__name">Página Inicial do Instagram
-                            com HTML5 e CSS3</a>
-                    </div>
-                    <div class="item">
-                        <img src="assets/img/DIO.png" alt="">
-                        <a href="https://hermes.digitalinnovation.one/certificates/EF1B5102.pdf" target="_blank" class="menu__name">HTML Web Developer</a>
-                    
-                    </div>
-                       
-			</section>
-			
-			<section class="menu section bd-container" id="menu">
-				<span class="section-subtitle">certificado de Participação.
-                <h2 class="section-title">Certificados Nélio Alves</h2>	
-				<div class="menu__container bd-grid">
-					<div class="menu__content"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921" alt=""></div>                   
-                    <div class="menu__content">
-						<a href="https://learn.devsuperior.com/certificados/2125045" target="_blank" class="menu__name"> Evento SpringReact </a><br><i class="fa-solid fa-eye"></i><a class="alink" href="https://rwsmovie.netlify.app" target="_blank"> Veja o projeto </a>
-					</div>
-					<div class="menu__content"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921" alt=""></div>
-				</div>
-            </section>            
-
-            <!--========== CONTACT US ==========-->
-            <section class="contact section bd-container" id="contact">
-                <div class="contact__container bd-grid">
-                    <div class="contact__data">
-                        <span class="section-subtitle contact__initial">Vamos nos conectar</span>
-                        <h2 class="section-title contact__initial">Contato</h2>
-                    </div>
-
-                    <div class="contact__button">
-						<img src="assets/img/whatsapp_gif.gif" class="gif"/>
-						<img src="assets/img/Email.gif" class="gEmail"/>
-						<a href="https://wa.me/5593992085930" target="_blank" class="button1">Enviar Mensagem</a>
-                        <a href="mailto:renksa8@gmail.com?" class="button">Enviar e-mail</a>
-                    </div>
+                <div class="item">
+                    <img src="assets/img/DIO.png" alt="">
+                    <a href="https://certificates.digitalinnovation.one/3ACC6046" target="_blank" class="menu__name">Introdução ao Git e ao GitHub</a>
                 </div>
-            </section>
-        </main>
+      <div class="item">
+                    <img src="assets/img/DIO.png" alt="">
+                    <a href="https://www.dio.me/certificate/093A36DD/share" target="_blank" class="menu__name">Interface do Netflix </a>
+                </div>
+                <div class="item">
+                    <img src="assets/img/DIO.png" alt="">
+                    <a href="https://certificates.digitalinnovation.one/C62A117F" target="_blank" class="menu__name">Lógica de Programação Essencial</a>
+                </div>                      
+                <div class="item">
+                    <img src="assets/img/DIO.png" alt="">
+                    <a href="https://certificates.digitalinnovation.one/FD25340F" target="_blank" class="menu__name">Aceleração Global Dev #10 GFT</a>
+                </div>
+                <div class="item">
+                    <img src="assets/img/DIO.png" alt="">
+                    <a href="https://hermes.digitalinnovation.one/certificates/38D3625D.pdf" target="_blank" class="menu__name">Páginas para internet com Bootstrap</a>
+                </div>                    
+                <div class="item">
+                    <img src="assets/img/DIO.png" alt="">                                           
+                    <a href="https://hermes.digitalinnovation.one/certificates/9429C10C.pdf" target="_blank" class="menu__name">HTML5 e CSS3</a>
+                </div>
+                <div class="item">
+                    <img src="assets/img/DIO.png" alt="">
+                    <a href="https://www.dio.me/certificate/63D99E2D/share" target="_blank" class="menu__name">Página Inicial do Instagram
+                        com HTML5 e CSS3</a>
+                </div>
+                <div class="item">
+                    <img src="assets/img/DIO.png" alt="">
+                    <a href="https://hermes.digitalinnovation.one/certificates/EF1B5102.pdf" target="_blank" class="menu__name">HTML Web Developer</a>
+                
+                </div>
+                   
+  </section>
+  
+  <section class="menu section bd-container">
+    <span class="section-subtitle">certificado de Participação.
+            <h2 class="section-title">Certificados Nélio Alves</h2>	
+    <div class="menu__container bd-grid">
+      <div class="menu__content"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921" alt=""></div>                   
+                <div class="menu__content">
+        <a href="https://learn.devsuperior.com/certificados/2125045" target="_blank" class="menu__name"> Evento SpringReact </a><br><i class="fa-solid fa-eye"></i><a class="alink" href="https://rwsmovie.netlify.app" target="_blank"> Veja o projeto </a>
+      </div>
+      <div class="menu__content"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921" alt=""></div>
+    </div>
+        </section>            
 
-        <!--========== FOOTER ==========-->
-        <footer class="footer section bd-container">
-            <div class="footer__container bd-grid">
-                <div class="footer__content">
-                    <a href="#" class="footer__logo">Renk Willy da Mota Sá</a>
-                    <span class="footer__description">Redes sociais</span>
-                    <div>
-                        <a href="https://github.com/RenkSa" target="_blank" class="footer__social"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/renk-willy-da-mota-sa-32286320b/" target="_blank" class="footer__social"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://www.instagram.com/rwstein/" target="_blank" class="footer__social"><i class="bi bi-instagram"></i></a>
-                        <a href="https://t.me/RenkSa" target="_blank" class="footer__social"><i class="bi bi-telegram"></i></a>                        
+        <!--========== CONTACT US ==========-->
+        <section class="contact section bd-container" id="contato">
+            <div class="contact__container bd-grid">
+                <div class="contact__data">
+                    <span class="section-subtitle contact__initial">Vamos nos conectar</span>
+                    <h2 class="section-title contact__initial">Contato</h2>
+                </div>
+
+                <div class="contact__button">
+        <img src="assets/img/whatsapp_gif.gif" class="gif"/>
+        <img src="assets/img/Email.gif" class="gEmail"/>
+        <a href="https://wa.me/5593992085930" target="_blank" class="button1">Enviar Mensagem</a>
+                    <a href="mailto:renksa8@gmail.com?" class="button">Enviar e-mail</a>
                 </div>
             </div>
+        </section>
+    </main>
 
-                <div class="footer__content">
-                    <h3 class="footer__title">Menu</h3>
-                    <ul>
-                        <li><a href="#home" class="footer__link">Home</a></li>
-                        <li><a href="#about" class="footer__link">Sobre mim</a></li>
-                        <li><a href="#menu" class="footer__link">Projetos</a></li>                        
-                        <li><a href="#curriculo" class="footer__link">Meu Currículo</a></li>
-                        <li><a href="#Certificados" class="footer__link">Certificados</a></li>
-                        <li><a href="#contact" class="footer__link">Contato</a></li>                        
-                    </ul>
-                </div>
+    <!--========== FOOTER ==========-->
+    <footer class="footer section bd-container">
+        <div class="footer__container bd-grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo">Renk Willy da Mota Sá</a>
+                <span class="footer__description">Redes sociais</span>
+                <div>
+                    <a href="https://github.com/RenkSa" target="_blank" class="footer__social"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/renk-willy-da-mota-sa-32286320b/" target="_blank" class="footer__social"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/rwstein/" target="_blank" class="footer__social"><i class="bi bi-instagram"></i></a>
+                    <a href="https://t.me/RenkSa" target="_blank" class="footer__social"><i class="bi bi-telegram"></i></a>                        
+            </div>
+        </div>
 
-                <div class="footer__content">
-                    <h3 class="footer__title">Vivendo em</h3>
-                    <ul>
-                        <li>Brasil, Santarém-PA</li>
-                    </ul>
-                </div>
+            <div class="footer__content">
+                <h3 class="footer__title">Menu</h3>
+                <ul>
+                    <li><a href="#home" class="footer__link">Home</a></li>
+                    <li><a href="#about" class="footer__link">Sobre mim</a></li>
+                    <li><a href="#work" class="footer__link">Projetos</a></li>                        
+                    <li><a href="#curriculo" class="footer__link">Meu Currículo</a></li>
+                    <li><a href="#Certificados" class="footer__link">Certificados</a></li>
+                    <li><a href="#contato" class="footer__link">Contato</a></li>                        
+                </ul>
             </div>
 
-            <p class="footer__copy">&#169; 2022 Renk Willy da Mota Sá.</p>
-        </footer>
+            <div class="footer__content">
+                <h3 class="footer__title">Vivendo em</h3>
+                <ul>
+                    <li>Brasil, Santarém-PA</li>
+                </ul>
+            </div>
+        </div>
 
-        <!--========== SCROLL REVEAL ==========-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+        <p class="footer__copy">&#169; 2022 Renk Willy da Mota Sá.</p>
+    </footer>
 
-        <!--========== MAIN JS ==========-->
-        <script src="assets/js/main.js"></script>
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-        <!--https://fontawesome.com/license-->
-        <script src="https://kit.fontawesome.com/04e525ee6b.js" crossorigin="anonymous"></script>
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
 
-        <!--Setup - Owl-->
-    <script src="assets/js/owl/jquery.min.js"></script>
-    <script src="assets/js/owl/owl.carousel.min.js"></script>
-    <script src="assets/js/owl/setup.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <!--https://fontawesome.com/license-->
+    <script src="https://kit.fontawesome.com/04e525ee6b.js" crossorigin="anonymous"></script>
+
+    <!--Setup - Owl-->
+<script src="assets/js/owl/jquery.min.js"></script>
+<script src="assets/js/owl/owl.carousel.min.js"></script>
+<script src="assets/js/owl/setup.js"></script>
+
+<!-- scripts -->
+<script src="particles.js"></script>
+<script src="assets/js/app.js"></script>
 
 
-    
-    </body>
-    
+
+
+</body>
 </html>

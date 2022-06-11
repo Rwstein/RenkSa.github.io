@@ -89,6 +89,8 @@ const sr = ScrollReveal({
     reset: true
 });
 
+
+
 sr.reveal(`.home__data, .home__img,
             .about__data, .about__img,
             .services__content, .menu__content,
