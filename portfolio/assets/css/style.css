@@ -22,3 +22,9 @@ canvas{
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 }
+
+@media screen and (max-width: 570px) {
+	.menu__container.bd-grid {
+		grid-template-columns: repeat(1, 1fr);
+	}
+  }

@@ -16,7 +16,7 @@ tsParticles.load('tsparticles',
   {
     "particles": {
       "number": {
-        "value": 35,
+        "value": 40,
         "density": {
           "enable": true,
           "value_area": 800
@@ -51,7 +51,7 @@ tsParticles.load('tsparticles',
         }
       },
       "size": {
-        "value": 4,
+        "value": 6,
         "random": true,
         "anim": {
           "enable": false,
@@ -62,7 +62,7 @@ tsParticles.load('tsparticles',
       },
       "line_linked": {
         "enable": true,
-        "distance": 150,
+        "distance": 100,
         "color": "#393939",
         "opacity": 0.31,
         "width": 1

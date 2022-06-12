@@ -115,9 +115,13 @@ img{
   margin-bottom: 40px;
 }
 /*========== CLASS GIFS ==========*/
+.cv-flex {
+  display: flex;
+  align-items: baseline;
+}
+
 .lGif {
 	width: 128px;
-	margin-left: 6px;
 }
 
 .scrollwhats{
@@ -244,7 +248,12 @@ img{
   align-items: center;
 }
 
-
+@media screen and (max-width: 570px) {
+  .menu__container{
+    grid-template-columns: repeat(1, 1fr);
+      justify-content: center;
+  }
+}
 
 @media screen and (max-width: 768px){
   .nav__menu{
@@ -260,7 +269,10 @@ img{
     border-radius: 0 0 1rem 1rem;
     z-index: var(--z-fixed);
   }
+
 }
+
+
 
 .nav__item{
   margin-bottom: var(--mb-2);
@@ -391,18 +403,18 @@ img{
 }
 
 .button2{
- display: inline-block;
+  display: inline-block;
   background-color: var(--first-color);
   color: #FFF;
   padding: .75rem 1rem;
   border-radius: .5rem;
   transition: .3s;
   margin-left: 30px;
-  margin: 10px;
+  margin: 2px;
 }
 
 .button3{
-	margin: 20px;
+	margin-left: 30px;
   display: inline-block;
   background-color: var(--first-color);
   color: #FFF;
@@ -642,6 +654,7 @@ img{
     align-items: center;
     margin-bottom: -60px;
 }
+
 
   .about__data, .about__initial,
   .app__data, .app__initial,

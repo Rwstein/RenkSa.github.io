@@ -80,7 +80,7 @@ themeButton.addEventListener('click', () => {
 
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
-})
+});
 
 const sr = ScrollReveal({
     origin: 'top',
@@ -98,4 +98,4 @@ sr.reveal(`.home__data, .home__img,
             .contact__data, .contact__button,
             .footer__content`, {
     interval: 50
-})
+});
