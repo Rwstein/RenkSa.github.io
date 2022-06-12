@@ -18,7 +18,7 @@
 
     <title>RentalCars</title>
 </head>
-<body style="background-color: black;">
+<body>
 
   <!--========== SCROLL TOP ==========-->
   <a href="#" class="scrolltop" id="scroll-top">
@@ -26,13 +26,11 @@
 </a>
 
  <!--========== HEADER ==========-->
- <header class="l-header" id="header">
+ <header class="l-header " id="header">
   <nav class="nav bd-container navbar-dark">
       <a href="#">  
       <img class="img_logo" src="img/iconRCars.png" alt="" width="150px">
       </a>
-
-  
 
       <div class="nav__menu" id="nav-menu">
           <ul class="nav__list">
@@ -143,7 +141,7 @@
 
  <!-- Serviços da empresa -->
  <section class="menu section bd-container" id="services-area">
-    <h2 class="section-sub">Nossos Serviços</h2>
+    <h2 class="section-title">Nossos Serviços</h2>
  <div id="services-area menu__content">
     <div class="services-container">
       <div class="row">
@@ -171,8 +169,8 @@
 </section>
 
  <!--========== GPS ==========-->
- <section class="about-area" id="gps">
-    <h2 class="gps-title">Como chegar até nós</h2>
+ <section class="menu section bd-container" id="gps">
+    <h2 class="section-title">Como chegar até nós</h2>
     <div class="gps-container">
         <div class="row">
           <div class="col-12"> 
@@ -197,7 +195,7 @@
 
  <!--========== CONTACT US ==========-->
  <section class="menu section bd-container" id="contato">
-    <h3 class="ctt-title">Entre em contato conosco</h3>
+    <h3 class="section-title">Entre em contato conosco</h3>
     <div id="contact-area">
         <div class="contact-container">
             <div class="row">
@@ -219,40 +217,38 @@
  </section>
               
 
-<!--========== FOOTER ==========-->
-<footer>
-  <div class="container">
-    <div class="row">
-      <div class="col order-last">
+ <!--========== FOOTER ==========-->
+ <footer class="footer section bd-container">
+  <div class="footer__container bd-grid">
+      <div class="footer__content">
+          <a href="#" class="footer__logo">Rental Cars</a>
+          <span class="footer__description">Redes sociais</span>
+          <div>
+              <a href="#" target="_blank" class="footer__social"><i class="bi bi-instagram"></i></a>
+              <a href="#" target="_blank" class="footer__social"><i class="bi bi-telegram" style="color: red;"></i></a>                        
       </div>
-      <div class="col">
-        <img src="img/iconRCars.png" width="200" alt="">
-        <p class="footer__copy"><a href="#" target="_blank">Rental Cars</a> &copy; Copyright 2022</p>
-      </div>
-      <div class="col order-first">
-        <div class="">
-          <div id="box-ico">
-          <i class="fa-solid fa-house"></i>
-        </div>
-          <p>Av. Fernando Guilhon, 384 - Santarenzinho</p>
-        </div>
-        <div class="box">
-          <div id="box-ico">
-          <i class="fa-solid fa-phone-flip"></i>
-        </div>
-          <p>(93) 99999-9999</p>
-        </div>
-        <div class="box">
-          <div id="box-ico">
-          <i class="fa-solid fa-envelope"></i>
-        </div>
-          <p>contato@rentalcars.com.br</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</footer>
+  </div> 
 
+      <div class="footer__content">
+          <img src="img/iconRCars.png" alt="logo-rentalcars">
+      </div>
+
+      <div class="footer__content">
+        <h3 class="footer__title">Menu</h3>
+        <ul>
+            <li><a href="#home" class="footer__link">Home</a></li>
+            <li><a href="#about" class="footer__link">Sobre mim</a></li>
+            <li><a href="#menu" class="footer__link">Projetos</a></li>                        
+            <li><a href="#curriculo" class="footer__link">Meu Currículo</a></li>
+            <li><a href="#Certificados" class="footer__link">Certificados</a></li>
+            <li><a href="#contact" class="footer__link">Contato</a></li>                        
+        </ul>
+    </div>
+
+  </div>
+
+  <p class="footer__copy">&#169; 2022 RENTALCARS.</p>
+</footer>
 
 
 <!-------------------FontAwesome--------------->
