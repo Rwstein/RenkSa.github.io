@@ -248,12 +248,7 @@ img{
   align-items: center;
 }
 
-@media screen and (max-width: 570px) {
-  .menu__container{
-    grid-template-columns: repeat(1, 1fr);
-      justify-content: center;
-  }
-}
+
 
 @media screen and (max-width: 768px){
   .nav__menu{
@@ -272,7 +267,9 @@ img{
 
 }
 
-
+.nav__logo {
+  width: 55px;
+}
 
 .nav__item{
   margin-bottom: var(--mb-2);

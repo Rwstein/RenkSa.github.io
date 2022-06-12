@@ -62,11 +62,12 @@ tsParticles.load('tsparticles',
       },
       "line_linked": {
         "enable": true,
-        "distance": 100,
+        "distance": 150,
         "color": "#393939",
         "opacity": 0.31,
         "width": 1
       },
+      
       "move": {
         "enable": true,
         "speed": 2,
