@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2015, Renk Willy da Mota Sá
+Copyright (c) 2022, Renk Willy da Mota Sá
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
