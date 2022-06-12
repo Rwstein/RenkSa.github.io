@@ -11,12 +11,12 @@ particlesJS.load('particles-js', 'particles.json', function() {
 
 /* Otherwise just put the config content (json): */
 
-particlesJS('particles-js',
+tsParticles.load('tsparticles',
   
   {
     "particles": {
       "number": {
-        "value": 55,
+        "value": 35,
         "density": {
           "enable": true,
           "value_area": 800
@@ -64,7 +64,7 @@ particlesJS('particles-js',
         "enable": true,
         "distance": 150,
         "color": "#393939",
-        "opacity": 1,
+        "opacity": 0.31,
         "width": 1
       },
       "move": {
@@ -87,10 +87,10 @@ particlesJS('particles-js',
         "onhover": {
           "enable": true,
           "mode": "bubble",
-             parallax: {
-               enable: true,
-                force: 100,
-                smooth: 10,
+             "parallax": {
+               "enable": true,
+                "force": 100,
+                "smooth": 10,
             }
         },
         "onclick": {
@@ -125,14 +125,7 @@ particlesJS('particles-js',
       }
     },
     "retina_detect": true,
-    "config_demo": {
-      "hide_card": false,
-      "background_color": "#b61924",
-      "background_image": "",
-      "background_position": "50% 50%",
-      "background_repeat": "no-repeat",
-      "background_size": "cover"
-    }
+    
   }
 
 );
