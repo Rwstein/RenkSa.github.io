@@ -7,12 +7,13 @@
   <meta name="author" content="Renk Sá" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <!--========== CSS ==========-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" media="screen" href="assets/css/style.css">
   <link rel="stylesheet" media="screen" href="assets/css/styles.css">
   <!--========== CAIXA DE ÍCONES ==========-->
   <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
-
+  
   <!--========== FAVICOM ==========-->
   <link rel="shortcut icon" href="assets/img/logo-Rws.png" type="image/x-icon">
 
@@ -79,13 +80,32 @@
                     <span class="section-subtitle about__initial"></span>
                     <h2 class="section-title about__initial">Sobre mim</h2>
                     <p class="about__description">Estudante de Desenvolvimento Web, me disciplinando nos estudos em HTML-CSS3-Javascript, básico na Linguagem Java, fiz alguns projetos em Java, Foco, Disciplina e Atenção.</p>
-                    <a href="#" class="button">Ver meu histórico</a>
+                    <p>
+                        <a class="btn btn-primary button" data-bs-toggle="collapse" href="#collapsebtnone" role="button" aria-expanded="false" aria-controls="collapseExample">
+                          Github Status
+                        </a>
+                        <button class="btn btn-primary button" type="button" data-bs-toggle="collapse" data-bs-target="#collapsebtntwo" aria-expanded="false" aria-controls="collapseExample">
+                          Github Linguagem
+                        </button>
+                      </p>
+                      <div class="collapse" id="collapsebtnone">
+                        <div class="card card-body">
+                          <img src="https://github-readme-stats.vercel.app/api?username=RenkSa&show_icons=true&theme=vue-dark" alt="github stats">
+                        </div>
+                      </div>
+                      <div class="collapse" id="collapsebtntwo">
+                        <div class="card card-body">
+                            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RenkSa&layout=compact&card_width=250&langs_count=10)" alt="github most used languages">
+                        </div>
+                      </div>
                 </div>
-
                 <img src="assets/img/coding.gif" alt="imagem programador" class="about__img">
-            </div>
+            </div> 
+                       
         </section>
-
+        
+        
+       
 
         <!--========== Projetos ==========-->
         <section class="menu section bd-container" id="work">
@@ -148,12 +168,12 @@
         </section>
   
   <!--========== Currículo ==========-->
-        <section class="contact section bd-container" id="curriculo">
-            <div class="contact__container bd-grid">
-                <div class="contact__data">
-                    <span class="section-subtitle contact__initial">Curriculum Vitae</span>
-                    <h2 class="section-title contact__initial">Currículos</h2>
-                </div>
+<section class="contact section bd-container" id="curriculo">
+    <div class="contact__container bd-grid">
+        <div class="contact__data">
+            <span class="section-subtitle contact__initial">Curriculum Vitae</span>
+            <h2 class="section-title contact__initial">Currículos</h2>
+        </div>
                     
     <div class="contact__button">
         <img src="assets/img/linkedin.gif" class="lGif" alt="gif linkedin">
@@ -288,7 +308,6 @@
                 </ul>
             </div>
         </div>
-
         <p class="footer__copy">&#169; 2022 Renk Willy da Mota Sá.</p>
     </footer>
 
@@ -310,6 +329,8 @@
 <!-- scripts tsParticles-->
 <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.0.6/tsparticles.bundle.min.js"></script>
 <script src="assets/js/app.js"></script>
+<script src="assets/js/bootstrap.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 
 
 

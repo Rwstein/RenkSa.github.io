@@ -660,7 +660,6 @@ img{
   }
 
   .about__img, .app__img{
-    width: 380px;
     order: -1;
   }
 
