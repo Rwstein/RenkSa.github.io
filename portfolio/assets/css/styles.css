@@ -640,6 +640,10 @@ img{
   margin-top: 3.5rem;
 }
 
+i.fa-brands.fa-discord{
+  font-size: 21pt;
+}
+
 /*========== MEDIA QUERIES ==========*/
 @media screen and (min-width: 576px){
   .home__container,
