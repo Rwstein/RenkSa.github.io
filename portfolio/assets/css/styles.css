@@ -228,7 +228,7 @@ img{
 
 .bd-grid{
   display: grid;
-  gap: 1.5rem;
+  gap: 1.7rem;
 }
 
 .l-header{
@@ -247,7 +247,6 @@ img{
   justify-content: space-between;
   align-items: center;
 }
-
 
 
 @media screen and (max-width: 768px){
@@ -448,6 +447,10 @@ img{
   justify-self: center;
 }
 
+.justify-content-between {
+  margin-top: 150px;
+}
+
 /*========== SERVICES ==========*/
 .services__container{
   row-gap: 2.5rem;
@@ -619,6 +622,7 @@ img{
   margin-bottom: var(--mb-2);
 }
 
+
 .footer__link{
   display: inline-block;
   color: var(--text-color);
@@ -683,6 +687,7 @@ img{
 
   .nav{
     height: calc(var(--header-height) + 1.5rem);
+    background-color: var(--body-color);
   }
   .nav__list{
     display: flex;
