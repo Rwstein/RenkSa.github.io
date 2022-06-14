@@ -608,7 +608,7 @@ nav a {
   background-color: var(--body-color);
   border-radius: .5rem;
   border: #FFF;
-  box-shadow: 4px 4px 10px 10px #ff0000;
+  box-shadow: 1px 1px 12px #ff0000;
   color: var(--container-color);
 }
 
