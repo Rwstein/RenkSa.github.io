@@ -673,7 +673,9 @@ nav a {
 }
 
 /* ============  CSS REGRAS =================*/
-i.fa-solid.fa-laptop {
+
+
+div.card.h-100 > i {
   color: var(--text-color);
   border: solid 1px #444;
   border-radius: 50%;
