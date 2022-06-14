@@ -41,18 +41,6 @@
   --z-fixed: 100;
 }
 
-@media screen and (min-width: 768px){
-  :root{
-    --biggest-font-size: 4rem;
-    --h1-font-size: 2.25rem;
-    --h2-font-size: 1.5rem;
-    --h3-font-size: 1.25rem;
-    --normal-font-size: 1rem;
-    --small-font-size: .875rem;
-    --smaller-font-size: .813rem;
-  }
-}
-
 /*========== BASE ==========*/
 *,::before,::after{
   box-sizing: border-box;
@@ -799,13 +787,100 @@ h3.ctt-title {
 }
 
 /*========== MEDIA QUERIES ==========*/
-@media screen and (min-width: 576px){
+@media screen and (max-width: 576px){
   .home__container,
   .about__container,
   .app__container{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
   }
+
+  .carousel-indicators {
+    top: 265px;    
+}
+
+.carousel-item {
+  height: 57vh;
+}
+
+  .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: -.75rem !important;
+    left: 15%;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-caption h2 {
+  font-size: 12pt !important;
+}
+
+.carousel-caption p {
+  font-size: 12pt !important;
+}
+
+i.fa-solid.fa-bars {
+  margin-top: 13px;
+}
+
+.carousel-caption a {
+    font-size: 8pt !important;
+    width: 119px !important;
+    height: 31px !important;
+    line-height: 22px;
+    padding: 1px 9px !important;
+    margin-bottom: 30% !important;
+    border: 3px solid var(--title-color) !important;
+}
+
+.row-cols-1>* {
+  margin-bottom: 54px;
+}
+
+.col-md-6 {
+  margin-bottom: 20px;
+}
+
+.gps-container > .row {
+  margin-bottom: 0px;
+}
+
+.contact-container > .row {
+  margin-bottom: 20px;
+}
+
+#gps > .section-title {
+  margin-bottom: 59px;
+}
+
+.container > .section-title {
+  margin-bottom: 59px;
+}
+
+.section-title {
+    margin-bottom: 110px;
+}
+
+img.img_logo {
+  width: 100px !important;  
+  margin-top: -11px;
+}
+
+img.d-block.w-100 {
+  margin-top: 51px !important;
+}
+
+.carousel-dark .carousel-caption {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  border: 0;
+  position: absolute;  
+  background-color: rgba(0 0 0 / 20%);
+}
 
   img.img_logo {
     margin-left: 9px;
@@ -830,6 +905,11 @@ h3.ctt-title {
   .contact__button{
     justify-self: center;
   }
+
+  i.fa-solid.fa-laptop {
+    margin-left: 85px;
+}
+
 }
 
 @media screen and (min-width: 768px){
