@@ -12,7 +12,7 @@
   --text-color: #f8f8f8;
   --text-color-light: #f80e0e;
   --body-color: #000705;
-  --container-color: #FFFFFF;
+  --container-color: #4b4b4d;
 
   /*========== Font and typography ==========*/
   --body-font: 'Poppins', sans-serif;
@@ -54,7 +54,7 @@ body{
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: black !important;
+  background-color: var(--container-color) !important;
   color: var(--body-color);
   line-height: 1.6;
 }
@@ -228,6 +228,14 @@ div#services-area\ menu__content {
   margin-top: 104px;
 }
 
+div.services-container > .row {
+  margin-bottom: 15px;
+}
+
+.gps-container > .row {
+  margin-bottom: 43px;
+}
+
 .card-title {
   font-size: 12pt;
 }
@@ -238,7 +246,7 @@ div#services-area\ menu__content {
 }
 
 .carousel-dark .carousel-caption {
-  color: var(--container-color) !important;
+  color: var(--text-color) !important;
   margin-bottom: 100px;
   font-size: 20pt;
   background-color: rgba(0 0 0 / 40%);
@@ -297,7 +305,7 @@ div#services-area\ menu__content {
   color: var(--title-color);
   margin-top: var(--mb-5);
   width: 100%;
-  margin-bottom: 100px;
+  margin-bottom: 190px;
 }
 
 .contact-box i {
@@ -310,6 +318,22 @@ div#services-area\ menu__content {
 .contact-box i:hover {
   color: var(--first-color);
   box-shadow: 0 5px 1px rgba(226, 5, 5, 0.5);;
+}
+
+#gps > .section-title {
+  margin-bottom: 95px;
+}
+
+#contato > .section-title {
+  margin-bottom: 122px;
+}
+
+#services-area > .section-title {
+  margin-bottom: 90px;
+}
+
+#frota > .section-title {
+  margin-bottom: 54px;
 }
 
 .row {
@@ -349,7 +373,7 @@ div#services-area\ menu__content {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: black;
+  background-color: var(--container-color);
 }
 
 /*========== NAV ==========*/
@@ -605,11 +629,11 @@ nav a {
   position: relative;
   display: flex;
   align-items: center;
-  background-color: var(--body-color);
+  background-color: var(--container-color);
   border-radius: .5rem;
   border: #FFF;
   box-shadow: 1px 1px 12px #ff0000;
-  color: var(--container-color);
+  color: var(--text-color);
 }
 
 .box-content:hover{
@@ -787,7 +811,7 @@ h3.about-title {
 }
 
 p {
-  color: var(--container-color);
+  color: var(--text-color);
 }
 
 h3.ctt-title {
@@ -927,7 +951,6 @@ img.d-block.w-100 {
 
   .section{
     padding-top: 2rem;
-    padding-bottom: 2rem;
   }
 
   .nav{
