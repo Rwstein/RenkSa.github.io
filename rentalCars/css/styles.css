@@ -304,6 +304,12 @@ div#services-area\ menu__content {
   font-size: 45px;
   text-align: center;
   margin-right: 30px;
+  color: var(--title-color);
+}
+
+.contact-box i:hover {
+  color: var(--first-color);
+  box-shadow: 0 5px 1px rgba(226, 5, 5, 0.5);;
 }
 
 .row {
