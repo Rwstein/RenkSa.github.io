@@ -240,6 +240,15 @@ div#services-area\ menu__content {
   margin-top: 104px;
 }
 
+.card-title {
+  font-size: 12pt;
+}
+
+.card-text{
+  color: var(--body-color);
+  font-size: 9pt;
+}
+
 .carousel-dark .carousel-caption {
   color: var(--container-color) !important;
   margin-bottom: 100px;
@@ -300,7 +309,7 @@ div#services-area\ menu__content {
   color: var(--title-color);
   margin-top: var(--mb-5);
   width: 100%;
-  margin-bottom: 130px;
+  margin-bottom: 100px;
 }
 
 .contact-box i {
@@ -673,6 +682,30 @@ nav a {
 .app__img{
   width: 230px;
   justify-self: center;
+}
+
+/* ============  CSS REGRAS =================*/
+i.fa-solid.fa-laptop {
+  color: var(--text-color);
+  border: solid 1px #444;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  font-size: 50pt;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-left: 73px;
+  margin-top: -71px;
+  background-color: var(--title-color);
+}
+
+.max-width {
+  max-width: 1230px;
+  width: calc(100% - 2rem);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -124px;
 }
 
 /*========== curriculo ==========*/
