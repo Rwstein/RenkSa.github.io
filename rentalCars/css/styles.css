@@ -260,7 +260,6 @@ div.services-container > .row {
 .carousel-dark .carousel-caption a{
   text-decoration: none;
   font-size: 20pt;
-  margin-bottom: 20%;
   color: var(--title-color);
   text-transform: uppercase;
   width: 200px;
@@ -715,7 +714,7 @@ div.card.h-100 > i {
   font-size: 50pt;
   margin-bottom: 20px;
   text-align: center;
-  margin-left: 73px;
+  margin-left: 89px;
   margin-top: -71px;
   background-color: var(--title-color);
 }
@@ -827,8 +826,12 @@ h3.ctt-title {
     align-items: center;
   }
 
+  #frota > .section-title {
+    margin-top: -39px;
+}
+
   .carousel-indicators {
-    top: 265px;    
+    top: 220px;    
 }
 
 .carousel-item {
@@ -838,10 +841,11 @@ h3.ctt-title {
   .carousel-caption {
     position: absolute;
     right: 15%;
-    bottom: -.75rem !important;
+    bottom: 7.25rem !important;
     left: 15%;
     color: #fff;
     text-align: center;
+    padding-bottom: 0px !important;
 }
 
 .carousel-caption h2 {
@@ -862,7 +866,6 @@ i.fa-solid.fa-bars {
     height: 31px !important;
     line-height: 22px;
     padding: 1px 9px !important;
-    margin-bottom: 30% !important;
     border: 3px solid var(--title-color) !important;
 }
 
@@ -900,7 +903,7 @@ img.img_logo {
 }
 
 img.d-block.w-100 {
-  margin-top: 51px !important;
+  margin-top: 3px !important;
 }
 
 .carousel-dark .carousel-caption {
