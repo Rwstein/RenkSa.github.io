@@ -826,9 +826,9 @@ h3.ctt-title {
     align-items: center;
   }
 
-}
-.carousel-control-next, .carousel-control-prev {
-    bottom: 63px;
+  .carousel-control-next, .carousel-control-prev {
+    bottom: 50px !important;
+    color: var(--title-color) !important;
 }
 
   #frota > .section-title {
