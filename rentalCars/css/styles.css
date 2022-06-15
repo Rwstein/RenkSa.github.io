@@ -843,14 +843,21 @@ h3.ctt-title {
   height: 57vh;
 }
 
-  .carousel-caption {
-    position: absolute;
+.carousel-caption.d-md-block {
     right: 15%;
-    bottom: 7.25rem !important;
     left: 15%;
     color: #fff;
     text-align: center;
-    padding-bottom: 0px !important;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-bottom: 78px;
+    padding-top: 0px !important;
+    position: absolute;  
+    background-color: rgba(0 0 0 / 20%);
 }
 
 .carousel-caption h2 {
@@ -911,16 +918,7 @@ img.d-block.w-100 {
   margin-top: 3px !important;
 }
 
-.carousel-dark .carousel-caption {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  margin: 0;
-  border: 0;
-  position: absolute;  
-  background-color: rgba(0 0 0 / 20%);
-}
+
 
   img.img_logo {
     margin-left: 9px;
