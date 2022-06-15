@@ -831,12 +831,13 @@ h3.ctt-title {
     color: var(--title-color) !important;
 }
 
-  #frota > .section-title {
-    margin-top: -39px;
+
+div#mainSlider {
+  margin-top: 47px;
 }
 
   .carousel-indicators {
-    top: 208px;    
+    top: 226px;    
 }
 
 .carousel-item {
@@ -853,8 +854,8 @@ h3.ctt-title {
     align-items: center;
     flex-direction: column;
     justify-content: center;
-
-    margin-bottom: 78px;
+    
+    margin-bottom: 81px;
     padding-top: 0px !important;
     position: absolute;  
     background-color: rgba(0 0 0 / 20%);
@@ -879,6 +880,10 @@ i.fa-solid.fa-bars {
     line-height: 22px;
     padding: 1px 9px !important;
     border: 3px solid var(--title-color) !important;
+}
+
+section#frota {
+  margin-top: -43px;
 }
 
 .row-cols-1>* {
