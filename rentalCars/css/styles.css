@@ -826,12 +826,17 @@ h3.ctt-title {
     align-items: center;
   }
 
+}
+.carousel-control-next, .carousel-control-prev {
+    bottom: 63px;
+}
+
   #frota > .section-title {
     margin-top: -39px;
 }
 
   .carousel-indicators {
-    top: 220px;    
+    top: 208px;    
 }
 
 .carousel-item {
