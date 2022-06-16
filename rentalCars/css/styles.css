@@ -827,7 +827,7 @@ h3.ctt-title {
   }
 
   .carousel-control-next, .carousel-control-prev {
-    bottom: 50px !important;
+    bottom: 174px !important;
     color: var(--title-color) !important;
 }
 
@@ -837,7 +837,7 @@ div#mainSlider {
 }
 
   .carousel-indicators {
-    top: 226px;    
+    top: 244px;    
 }
 
 .carousel-item {
@@ -855,7 +855,7 @@ div#mainSlider {
     flex-direction: column;
     justify-content: center;
     
-    margin-bottom: 81px;
+    bottom: 109px;
     padding-top: 0px !important;
     position: absolute;  
     background-color: rgba(0 0 0 / 20%);
@@ -883,7 +883,7 @@ i.fa-solid.fa-bars {
 }
 
 section#frota {
-  margin-top: -43px;
+  margin-top: -158px;
 }
 
 .row-cols-1>* {
