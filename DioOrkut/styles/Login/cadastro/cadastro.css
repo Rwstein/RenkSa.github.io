@@ -1,28 +1,14 @@
-.login{
-    width: 80%;
+.container{
+    width: 40vw;
     height: 70vh;
-    max-width: 444px;
     background-color: #fff;
     border-radius: 20px;
     box-shadow: 10px 9px 24px 3px rgba(64, 61, 61, 0.69);
     -webkit-box-shadow: 10px 9px 24px 3px rgba(64, 61, 61, 0.69);
     -moz-box-shadow: 10px 9px 24px 3px rgba(64, 61, 61, 0.69);
-    margin: 50px;
+    margin: auto;
+    margin-top: 5%;
 }
-
-section.container {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin: 26px 55px;
-}
-
-.home {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: 50px;
-}   
 
 .fields{
     margin: 5% 10%;
@@ -30,14 +16,11 @@ section.container {
 
 .fields__title{
     display: flex;
-}
-
-.logo-home {
-    margin-bottom: 30px;
+    justify-content: center;
 }
 
 #field__title{
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
     color: rgb(58, 58, 58);
     margin-top: 20px;
@@ -65,39 +48,69 @@ section.container {
 }
 
 #btnlogin{
-    width: 100%;
+    width: 50%;
     border: none;    
     color: #fff;
     padding: 10px;
     border-radius: 5px;
-    margin-bottom: 10px;    
+    margin-top: 10px;    
 }
 
-.fields__recovery > a, .fields__create > a{
-    text-decoration: none;
-    color: rgb(44, 44, 44);
-}
-
-.fields__recovery{
-    display: flex;
-    justify-content: flex-end;
-    margin-bottom: 20%;
+.fields__buttons {
+    text-align: center;
 }
 
 .fields__create{
     display: flex;
     justify-content: center;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     align-items: flex-end;
 }
 
-.logo{
-    display: flex;
-    justify-content: center;
+.container{
     margin-top: 20px;
 }
 
-.logo > img{
-    height: 80px;
+#field__title{
+    font-size: 20px;
+    margin-bottom: 70px;
+}   
+
+.fields__textbox{
+    height: 150px;
+}
+
+.fields__textbox > input {
+    height: 60px;
+}
+
+.fields__recovery{
+    margin-bottom: 20px;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.logo > a img{
+    width: 100px;
+    padding: 10px;
+    margin-left: 45px;
+}
+
+.welcome{
+    text-align: center;
+}
+
+.text-welcome {
+    margin-bottom: 15px;
+}
+
+.confirmar{
+    font-size: 7pt;
+    margin-top: 60px;
 }

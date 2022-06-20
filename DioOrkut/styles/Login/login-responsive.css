@@ -1,22 +1,35 @@
-@media screen and (min-width: 650px) {
-    .container{
-        margin-top: 20px;
-    }
+@media screen and (max-width: 560px) {
+ section.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;    
+ }
 
-    #field__title{
-        font-size: 20px;
-        margin-bottom: 20px;
-    }   
+ .home {
+    margin: 0px;
+ }
 
-    .fields__textbox{
-        height: 150px;
-    }
+ .login {
+    width: 80vw;
+    height: 52vh;
+ }
+}
 
-    .fields__textbox > input {
-        height: 60px;
-    }
+@media screen and (min-width: 620px) {
+   #field_title{
+      font-size: 20px;
+      margin-bottom: 20px;
+   }
 
-    .fields__recovery{
-        margin-bottom: 20px;
-    }
+   .fields__textbox{
+      height: 150px;
+   }
+
+   .fields__textbox > input {
+      height: 60px;
+   }
+
+   .fields__recovery{
+      margin-bottom: 20px;
+   }
 }
