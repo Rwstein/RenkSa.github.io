@@ -6,13 +6,17 @@
  }
 
  .home {
-    margin: 0px;
+    margin: 10px -33px 0px -37px;
  }
 
  .login {
     width: 80vw;
     height: 52vh;
  }
+
+ .fields__recovery {
+   margin-bottom: 10%;
+}
 }
 
 @media screen and (min-width: 620px) {
