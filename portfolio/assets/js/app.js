@@ -95,7 +95,7 @@ tsParticles.load('tsparticles',
             }
         },
         "onclick": {
-          "enable": true,
+          "enable": false,
           "mode": "push"
         },
         "resize": true
@@ -108,8 +108,8 @@ tsParticles.load('tsparticles',
           }
         },
         "bubble": {
-          "distance": 250,
-          "size": 6,
+          "distance": 350,
+          "size": 8,
           "duration": 2,
           "opacity": 1,
           "speed": 3

@@ -251,12 +251,14 @@ img{
 }
 
 .text-logo {
-  margin-left: 9px;
+  position: absolute;
+  top: 48px;
+  font-size: 10pt;
 }
 
 .abs-java{
-  font-size: 35pt;
-  margin-top: -10px;
+  font-size: 30pt;
+  margin-top: -18px;
 }
 
 @media screen and (max-width: 768px){
