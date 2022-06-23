@@ -34,3 +34,6 @@ function selectCarouselItem(selectedButtonElement) {
     activeButtonElement.classList.remove('s-controller_button--active');
     selectedButtonElement.classList.add('s-controller_button--active');
 }
+
+
+ 
