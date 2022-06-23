@@ -266,5 +266,12 @@
 	position: relative;
 	width: 350px;
 }
+
+
+@media screen and (max-width: 570px) {
+    div#interface {
+        width: 1400px !important;
+    }
+}
 	
 	
