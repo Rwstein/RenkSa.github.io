@@ -95,7 +95,7 @@ sr.reveal(`.home__data, .home__img,
             .about__data, .about__img,
             .services__content, .app__data, .app__img,
             .contact__data, .contact__button,
-.footer__content`, {
+.footer__content, #onOff`, {
     interval: 50
 });
 
@@ -105,22 +105,30 @@ window.addEventListener("load", function(){
 });
 
 
-const displayTarget = document.querySelector('p[id="onOff"] span');
+const displayTarget = document.querySelector('p[id="onOff"] span')
 
 if (window.navigator.onLine) {
-    setOnline();
+    setOnline()
 } else {
-    setOffline();
+    setOffline()
 }
 
+window.addEventListener('online', () => {
+    setOnline()
+})
+
+window.addEventListener('offline', () => {
+    setOffline()
+})
+
 function setOnline() {
-    displayTarget.textContent = 'Online 😀';
-    displayTarget.style.color = 'green';
+    displayTarget.textContent = 'Online 😀'
+    displayTarget.style.color = 'green'
 }
 
 function setOffline() {
-    displayTarget.textContent = 'Offline 😭';
-    displayTarget.style.color = 'red';
+    displayTarget.textContent = 'Offline 😭'
+    displayTarget.style.color = 'red'
 }
 
 

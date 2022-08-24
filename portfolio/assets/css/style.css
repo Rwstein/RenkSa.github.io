@@ -20,12 +20,13 @@ canvas{
 
 /* ---- particles.js container ---- */
 #pre-loader {
-    background: #000 url(../img/Chunk-9.1s-214px.gif) no-repeat center center;
+    background: url(../img/Chunk-9.1s-214px.gif) center center no-repeat rgb(29 37 33);
     height: 100vh;
     width: 1350px;
     position: absolute;
     z-index: 1000;
-	image-rendering: auto;
+    image-rendering: auto;
+    top: 63px;
 }
 
 #tsparticles{
@@ -77,6 +78,6 @@ canvas{
 p#onOff {
     display: block;
     position: absolute;
-    left: 36px;
-    top: 163px;
+    left: 348px;
+    top: 537px;
 }
