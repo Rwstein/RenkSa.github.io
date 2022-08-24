@@ -752,39 +752,16 @@ i.fa-brands.fa-bootstrap {
 }
 
 /*========== MEDIA QUERIES ==========*/
-@media screen and (min-width: 576px){
-  .home__container,
-  .about__container,
-  .app__container{
-    grid-template-columns: repeat(2,1fr);
-    align-items: center;
-  }
-
-  .home__data {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: -60px;
+@media screen and (min-width: 360px){
+  p#onOff {
+    left: 105px;
+    top: 646px;
 }
 
+.nav__logo {
+  margin-left: 13px;
+}
 
-  .about__data, .about__initial,
-  .app__data, .app__initial,
-  .contact__container, .contact__initial{
-    text-align: initial;
-  }
-
-  .about__img, .app__img{
-    order: -1;
-  }
-
-  .contact__container{
-    grid-template-columns: 1.75fr 1fr;
-    align-items: center;
-  }
-  .contact__button{
-    justify-self: center;
-  }
 }
 
 @media screen and (min-width: 768px){
