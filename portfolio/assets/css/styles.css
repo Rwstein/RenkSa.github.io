@@ -752,12 +752,17 @@ i.fa-brands.fa-bootstrap {
 }
 
 /*========== MEDIA QUERIES ==========*/
-@media screen and (min-width: 360px){
+@media screen and (max-width: 360px){
 
   p#onOff {
     left: 104px;
     top: 651px;
   }
+
+  #pre-loader {
+    width: 100vw;
+    height: 100vh;
+}
 
 }
 
