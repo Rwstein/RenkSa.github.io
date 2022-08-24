@@ -99,3 +99,36 @@ sr.reveal(`.home__data, .home__img,
     interval: 50
 });
 
+let loader = document.getElementById("pre-loader");
+window.addEventListener("load", function(){
+    loader.style.display = "none";
+});
+
+
+const displayTarget = document.querySelector('p[id="onOff"] span')
+
+if (window.navigator.online) {
+    setOnline()
+} else {
+    setOffline()
+}
+
+window.addEventListener('online', () => {
+    setOnline()
+})
+
+window.addEventListener('offline', () => {
+    setOffline()
+})
+
+function setOnline() {
+    displayTarget.textContent = 'Online 😀'
+    displayTarget.style.color = 'green'
+}
+
+function setOffline() {
+    displayTarget.textContent = 'Offline 😭'
+    displayTarget.style.color = 'red'
+}
+
+
