@@ -105,30 +105,22 @@ window.addEventListener("load", function(){
 });
 
 
-const displayTarget = document.querySelector('p[id="onOff"] span')
+const displayTarget = document.querySelector('p[id="onOff"] span');
 
-if (window.navigator.online) {
-    setOnline()
+if (window.navigator.onLine) {
+    setOnline();
 } else {
-    setOffline()
+    setOffline();
 }
 
-window.addEventListener('online', () => {
-    setOnline()
-})
-
-window.addEventListener('offline', () => {
-    setOffline()
-})
-
 function setOnline() {
-    displayTarget.textContent = 'Online 😀'
-    displayTarget.style.color = 'green'
+    displayTarget.textContent = 'Online 😀';
+    displayTarget.style.color = 'green';
 }
 
 function setOffline() {
-    displayTarget.textContent = 'Offline 😭'
-    displayTarget.style.color = 'red'
+    displayTarget.textContent = 'Offline 😭';
+    displayTarget.style.color = 'red';
 }
 
 
