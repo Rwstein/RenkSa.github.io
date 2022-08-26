@@ -53,6 +53,10 @@
     font-weight: normal;
   }
 
+  .dark-theme .invert-element {
+    transform: rotateZ(180deg) scaleX(-1);
+  }
+
 /* Estilos Genéricos */
 
 * {

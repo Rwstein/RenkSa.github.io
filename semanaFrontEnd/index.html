@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
-  <body class="dark-theme" aria-label="O site está utilizando o tema light" role="body">
+  <body class="light-theme" aria-label="O site está utilizando o tema light" role="body">
     <header aria-label="Cabeçalho da página.">
       <audio id="music" autoplay>
         <source src="assets/musics/normal-world.mpeg" aria-details="Audio do site" />
@@ -135,7 +135,10 @@
 
     <script type="module" src="assets/js/main.js"></script>
     <script>
-
+        function switchTheme() {
+            document.body.classList.toggle('dark-theme');
+            document.body.classList.toggle('light-theme');
+        }
     </script>
   </body>
 </html>
