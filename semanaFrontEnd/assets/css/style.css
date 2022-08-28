@@ -416,6 +416,37 @@ footer::after {
 }
 
 
+/************* Swal *****************/
+.swal2-container.swal2-center>.swal2-popup {
+    gap: 58px;
+}
 
+.swal2-title {
+    text-transform: uppercase;
+    color: var(--primary-color-contrast) !important;
+}
 
+.swal2-styled.swal2-confirm {
+    background: var(--footer-background-color) !important;
+    box-shadow: 2px 2px 3px 2px #fff !important;
+    color: var(--highlight-color) !important;
+}
 
+.swal2-container.swal2-center>.swal2-popup {
+    background-color: transparent;
+}
+
+.swal2-icon.swal2-success {
+    border-color: #0e100d !important;
+    color: #f00 !important;
+}
+
+.swal2-icon.swal2-success [class^=swal2-success-line] {
+    background-color: var(--primary-color) !important;
+}
+
+.swal2-container {
+    background: url("../img/Welcome-Hellfire-club.webp") no-repeat !important;
+    background-size: 800px !important;
+    background-position: center !important;
+}

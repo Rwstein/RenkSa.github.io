@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mundo Invertido | Semana Front-end</title>
-
     <link rel="stylesheet" href="assets/css/style.css" />
+    <!-------------- CDN SWEETALERT2 --------------->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.29/dist/sweetalert2.all.min.js"></script>
   </head>
 
   <body class="light-theme" aria-label="O site está utilizando o tema light" role="body">
@@ -117,7 +118,7 @@
               <label for="character">Personagem</label>
               <textarea name="character" cols="30" rows="10" id="txtCharacter"></textarea>
 
-              <button type="button" id="btnSubscribe">Me inscrever</button>
+              <button icon="success" type="button" id="btnSubscribe">Me inscrever</button>
             </form>
 
           </div>
@@ -153,8 +154,12 @@
             audio.play();
             audio.volume = 0.2;
         }
+
+        
+
     </script>
 
+   
     <script type="module" src="assets/js/main.js"></script>
   </body>
 </html>

@@ -18,7 +18,12 @@ btnSubscribe.addEventListener('click', async () => {
 
     //salvar no banco de dados!
     const subscriptionId = await subscribeToHellfireClub(subscription)
-    alert(`Cadastro Inscrito com sucesso: ${subscriptionId}`)
+    //alert(`Cadastro Inscrito com sucesso: ${subscriptionId}`)
+
+    Swal.fire('Cadastro efetuado com sucesso',
+    '',
+    'success',
+    )
 
     txtName.value = ''
     txtEmail.value = ''
