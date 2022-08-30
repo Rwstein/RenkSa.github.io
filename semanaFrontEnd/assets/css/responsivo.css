@@ -1,0 +1,34 @@
+@media screen and (max-width: 355px)  {
+    header {
+        min-height: 34.2rem !important;
+        width: 100vw !important;
+    }
+
+    button {
+        padding: 10px !important;
+        font-size: 10px !important;
+        margin-top: -20px !important;
+    }
+
+    button#switch-theme-button {
+        font-size: 10px !important;
+    }
+
+    .header-content p {
+        margin: 15px 0 50px !important;
+        font-size: 10pt !important;
+    }
+
+    .header-content img {
+        margin-top: -31px !important;
+        width: 100% !important;
+    }
+
+    .world-characters#top-characters{
+        bottom: 0px !important;
+    }
+
+    header::before {
+        height: 100vh !important;
+    }
+}

@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/************ nav ________ */
+
+nav {
+    border: 1px solid red;
+    height: 10vh;
+    position: relative;
+}
+
+main {
+    border: 1px solid blue;
+    height: calc(100vh - 10vh);
+}
+
+footer{
+    height: 12vh;
+    border: 1px solid green;
+}

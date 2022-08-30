@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="scroll-bar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Renk Sá">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ============= Reset =================-->
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- ============= CSS =================-->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- CSS only Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+    <!-- Gallery Photos -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css"/>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--------- FONTE ----------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- TAILWIND CSS-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <title>HomeLand</title>
+</head>
+<body>  
+  <div id="content-loader">
+    <div class="ball"></div>
+    <div class="ball"></div>
+    <div class="ball"></div>
+    <div class="shadow"></div>
+    <div class="shadow"></div>
+    <div class="shadow"></div>
+   </div>
+    <!---- Ambiente MENU-NAV --------->
+    <nav class="navbar navbar-expand-lg line-height" id="top-nav">
+        <div class="container-fluid">
+          <a class="navbar-brand logo container-fluid" href="">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <nav class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav justify-content-end nav-pills">
+              <a class="nav-link" href="#home">Home</a>
+              <a class="nav-link" href="#sobre">Sobre</a>
+              <a class="nav-link" href="#equipe">Equipe</a>
+              <a class="nav-link" href="#service">Serviços</a>
+              <a class="nav-link" href="#contato">Contatos</a>
+            </div>
+          </nav>
+        </div>       
+
+        <aside class="left-bar">
+          <ul class="display-ul">
+            <li class="li-left"><a href=""><i class="bi bi-facebook"></i></li>
+            <li class="li-left"><a href=""><i class="bi bi-youtube"></i></a></li>
+            <li class="li-left"><a href=""><i class="bi bi-instagram"></i></a></li>
+          </ul>
+        </aside>
+        <aside class="right-bar" id="dot-scroll">
+          <ul class="display-ul">
+            <li><a class="nav-link active" href="#home"><span></span></a></li>
+            <li><a class="nav-link" href="#sobre"><span></span></a></li>
+            <li><a class="nav-link" href="#equipe"><span></span></a></li>
+            <li><a class="nav-link" href="#service"><span></span></a></li>
+            <li><a class="nav-link" href="#contato"><span></span></a></li>
+          </ul>
+        </aside>
+        <aside class="bottom-bar">       
+            <div class="bottomdiv"><a style="cursor: pointer;" class="scrolltop" id="scroll-top">TOPO AQUI</a></div>
+        </aside>
+      </nav>
+      <div data-bs-spy="scroll" data-bs-target="#navbarNavAltMarkup" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+        <div data-bs-spy="scroll" data-bs-target="#dot-scroll" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+      <!------------------ MAIN-HOME ---------------->
+      <main class="content">
+
+                    <!-- HOME -->
+        <section id="home" class="main-home">
+          <div class="video-bg">
+            <video autoplay loop muted class="videobg">
+              <source src="/assets/videos/A trader performing financial analysis of cryptocurrency using a phone app and laptop..mp4">
+            </video>
+            <div class="home-description">
+              <h1 class="description text-align caption"><span style="color: var(--font-color-secondary);background-color: transparent;font-size: 40pt;letter-spacing: 35px;">MENSAGEM</span><br/><span style="color: var(--font-color-primary);background-color: transparent;font-size: 40pt;letter-spacing: 50px;">AQUI</span></h1>
+              <div class="buttons">
+                <button class="button-sobre"><a class="animated-button sandy-one" href="#">Sobre</a></button>
+                <button class="button-work"><a class="animated-button sandy-one" href="#">Work</a></button>                
+              </div>
+            </div>
+          </div>
+        </section>
+
+                      <!-- sobre -->
+        <section class="main-sobre" id="sobre">
+          <div class="description-sobre">
+            <div class="video-sobre w-100">
+              <video autoplay loop muted class="videosobre">
+                <source src="/assets/videos/Woman coding.mp4">
+              </video>            
+          <div class="title-description sobre-caption">
+            <h1 class="title-sobre color-change-2x">Sobre</h1>          
+          <div class="p1">
+            <p class="lead">A Argumento produções é uma empresa voltada a produção artística e produção de filmes de ficção, documentários e demais suportes audiovisuais.</p>
+          </div>
+          <div class="p2">
+            <p class="lead">Profissionais de ponta que trabalham em filmes e programas de televisão usam o DaVinci Resolve mais do que qualquer outra solução! Isso porque ele é conhecido por sua incrível qualidade e ferramentas criativas que estão anos-luz acima da concorrência. Você obtém a tecnologia de imagem vencedora do prêmio Emmy ™ da DaVinci com processamento float de 32 & # 8209; bits, ciência de cores YRGB patenteada e um & nbsp; enorme gama de cores para os fluxos de trabalho HDR mais recentes. Você também obtém a lendária qualidade de processamento de áudio Fairlight para o melhor som da indústria! Com o DaVinci Resolve, você obtém exatamente as mesmas ferramentas que coloristas profissionais, editores, artistas VFX e engenheiros de som usam todos os dias para terminar seus filmes favoritos e transmitir programas de televisão.</p>
+          </div>
+        </div> 
+      </div>
+      </div>
+</section>
+
+<!-- EQUIPE -->
+<section class="main-equipe" id="equipe">
+  <div class="description-sobre">
+    <div class="video-sobre w-100">
+      <video autoplay loop muted class="videoeqp">
+        <source src="/assets/videos/1060585798-preview.mp4">
+      </video> 
+      <div class="title-equipe equipe-caption">
+        <h1 class="equipe-title color-change-2x">Equipe</h1>        
+      </div>
+      <div class="team-section">
+        
+        <div class="row mt-40">
+            <div class="col-md-4 col-sm-6">
+                <div class="box1">
+                    <img class="pic-1" src="/assets/imagens/team-1.jpg">
+                    <h3 class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+                    <ul class="icon">
+                      <li><a href="#"><i class="bi bi-facebook"></i></i></a></li>
+                      <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+                      <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="name-profile">
+                  <h5 class="">MIKE JOHNSON</h5>
+                  <p>CEO & Founder</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="box1">
+                    <img class="pic-1" src="/assets/imagens/team-2.jpg">
+                    <h3 class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+                    <ul class="icon">
+                      <li><a href="#"><i class="bi bi-facebook"></i></i></a></li>
+                      <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+                      <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="name-profile">
+                  <h5>JESSICA SPECTER</h5>
+                  <p>Creative Diretor</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="box1">
+                    <img class="pic-1" src="/assets/imagens/team-3.jpg">
+                    <h3 class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+                    <ul class="icon">
+                        <li><a href="#"><i class="bi bi-facebook"></i></i></a></li>
+                        <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+                        <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                    </ul>
+                </div>
+                <div class="name-profile">
+                  <h5 class="">ANDREW MILES</h5>
+                  <p>Developer</p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+              <div class="box1">
+                  <img class="pic-1" src="/assets/imagens/team-4.jpg">
+                  <h3 class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+                  <ul class="icon">
+                    <li><a href="#"><i class="bi bi-facebook"></i></i></a></li>
+                    <li><a href="#"><i class="bi bi-youtube"></i></a></li>
+                    <li><a href="#"><i class="bi bi-instagram"></i></a></li>
+                  </ul>
+              </div>
+              <div class="name-profile">
+                <h5 class="">LYNDA SMITH</h5>
+                <p>Programmer</p>
+              </div>
+          </div>
+
+        </div>
+    </div>
+      </div>
+    </div>      
+</section>
+
+<!-- ********** NOSSO TRABALHO ***********-->
+<section class="main-service" id="service">
+  <div class="description-sobre">
+    <div class="video-sobre w-100">
+      <video autoplay loop muted class="servicevideo">
+        <source src="/assets/videos/Tourists on motorboats catching waves.mp4">
+      </video> 
+      <div class="title-service service-caption">
+        <h1 class="service-title color-change-2x">Nossos Serviços</h1>
+        <span style="color: var(--font-color-secondary); background-color: transparent;">SOME RECENT</span><span style="background-color: transparent;">PROJECTS</span>
+
+        <p class="text-subtitle" style="background-color: transparent;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+    
+  <div class="container-fluid space">
+      <div class="row"> 
+                   
+          <div align="center" style="background-color: transparent;" id="tabs">
+            <button class="filter-button" data-filter="all">ALL</button>
+            <button class="filter-button" data-filter="category1">PHOTOGRAPHY</button>
+            <button class="filter-button" data-filter="category2">WEB</button>
+            <button class="filter-button" data-filter="category3">VIDEO</button>
+          </div>
+    
+    <div class="gallery_product col-sm-3 col-xs-6 filter category1 box1">
+        <a class="fancybox gallery-link" rel="ligthbox" href="galery/portfolio-preview-1.jpg">
+            <img class="img-responsive hover-overlay overlay" alt="" src="galery/portfolio-preview-1.jpg" />
+            <h3 class="title" style="bottom: 66px;">Single <span style="color:var(--font-color-secondary);background-color: transparent;">Image</span> <br/><br/>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/><br/><i class="fa-solid fa-image" style="background-color:transparent;font-size:25pt;color: var(--font-color-secondary);"></i></h3>
+        </a>
+    </div>
+
+    <div class="gallery_product col-sm-3 col-xs-6 filter category2 box1">
+        <a class="fancybox" rel="ligthbox" href="galery/portfolio-preview-2.jpg">
+            <img class="img-responsive" alt="" src="galery/portfolio-preview-2.jpg" />
+            <h3 class="title" style="bottom: 66px;">Single <span style="color:var(--font-color-secondary);background-color: transparent;">Image</span> <br/><br/>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/><br/><i class="fa-solid fa-image" style="background-color:transparent;font-size:25pt;color: var(--font-color-secondary);"></i></h3>
+        </a>
+    </div>
+
+    <div class="gallery_product col-sm-3 col-xs-6 filter category3 box1">
+         <a class="fancybox" rel="ligthbox" href="galery/portfolio-preview-3.jpg">
+            <img class="img-responsive" alt="" src="galery/portfolio-preview-3.jpg" />
+            <h3 class="title" style="bottom: 66px;">Single <span style="color:var(--font-color-secondary);background-color: transparent;">Image</span> <br/><br/>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/><br/><i class="fa-solid fa-image" style="background-color:transparent;font-size:25pt;color: var(--font-color-secondary);"></i></h3>
+        </a>
+    </div>
+
+    <div class="gallery_product col-sm-3 col-xs-6 filter category1 box1">
+        <a class="fancybox" rel="ligthbox" href="galery/portfolio-preview-4.jpg">
+            <img class="img-responsive" alt="" src="galery/portfolio-preview-4.jpg" />
+            <h3 class="title" style="bottom: 66px;">Single <span style="color:var(--font-color-secondary);background-color: transparent;">Image</span> <br/><br/>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/><br/><i class="fa-solid fa-image" style="background-color:transparent;font-size:25pt;color: var(--font-color-secondary);"></i></h3>
+        </a>
+    </div>
+
+    <div class="gallery_product col-sm-3 col-xs-6 filter category2 box1">
+        <a class="fancybox" rel="ligthbox" href="galery/portfolio-preview-5.jpg">
+            <img class="img-responsive" alt="" src="galery/portfolio-preview-5.jpg" />
+            <h3 class="title" style="bottom: 66px;">Single <span style="color:var(--font-color-secondary);background-color: transparent;">Image</span> <br/><br/>ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/><br/><i class="fa-solid fa-image" style="background-color:transparent;font-size:25pt;color: var(--font-color-secondary);"></i></h3>
+        </a>
+    </div>
+
+    <div class="gallery_product col-sm-3 col-xs-6 filter category3 box1">
+        <a class="fancybox" rel="ligthbox" href="galery/portfolio-preview-6.jpg">
+            <img class="img-responsive" alt="" src="galery/portfolio-preview-6.jpg" />
+        </a>
+    </div>
+
+    <div class="gallery_product col-sm-3 col-xs-6 filter category1 box1">
+        <a class="fancybox" rel="ligthbox" href="galery/portfolio-preview-7.jpg">
+            <img class="img-responsive" alt="" src="galery/portfolio-preview-7.jpg" />
+        </a>
+    </div>
+
+    <div class="gallery_product col-sm-3 col-xs-6 filter category2 box1">
+        <a class="fancybox" rel="ligthbox" href="galery/portfolio-preview-8.jpg">
+            <img class="img-responsive" alt="" src="galery/portfolio-preview-8.jpg" />
+        </a>
+    </div>
+
+    <div class="gallery_product col-sm-3 col-xs-6 filter category3 box1">
+        <a class="fancybox" rel="ligthbox" href="galery/portfolio-preview-9.jpg">
+            <img class="img-responsive" alt="" src="galery/portfolio-preview-9.jpg" />
+        </a>
+    </div>
+
+    <div class="gallery_product col-sm-3 col-xs-6 filter category1 box1">
+        <a class="fancybox" rel="ligthbox" href="galery/portfolio-preview-10.jpg">
+            <img class="img-responsive" alt="" src="galery/portfolio-preview-10.jpg" />
+        </a>
+    </div>
+
+    <div class="gallery_product col-sm-3 col-xs-6 filter category2 box1">
+        <a class="fancybox" rel="ligthbox" href="galery/portfolio-preview-11.jpg">
+            <img class="img-responsive" alt="" src="galery/portfolio-preview-11.jpg" />
+        </a>
+    </div>
+
+    <div class="gallery_product col-sm-3 col-xs-6 filter category3 box1">
+        <a class="fancybox" rel="ligthbox" href="galery/portfolio-preview-12.jpg">
+            <img class="img-responsive" alt="" src="galery/portfolio-preview-12.jpg" />
+        </a>
+    </div>
+
+    <div data-bs-spy="scroll" data-bs-target="#tabs" data-bs-offset="0" class="scrollspy-example" tabindex="0"></div>                 
+
+      </div>
+    </div>
+  </div>    
+</div>          
+</section>
+
+<!-- Contato -->
+<section class="contato-section" id="contato">
+  <div class="description-sobre">
+    <div class="video-sobre w-100">
+      <video autoplay loop muted class="videoctt">
+    <source src="/assets/videos/1060088198-preview.mp4">
+</video> 
+<div class="title-contato contato-caption">
+  <h1 class="contato-title">Contato</h1>
+</div>
+<div class="contact-wrapper">
+  
+  <!-- Left contact page --> 
+  <div class="button-locate">
+    <button class="locate" type="map">
+        Nossa Localização
+    </button>
+    </div>
+    <form id="contact-form" class="form-horizontal" role="form">
+       
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+        </div>
+      </div>
+
+      <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+      
+      <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+        <div class="alt-send-button">
+          <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+        </div>      
+      </button>   
+
+    </form>
+
+  <!-- Left contact page --> 
+    
+      <div class="direct-contact-container">
+
+        <ul class="contact-list">
+          <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Cidade, Estado</span></i></li>
+          
+          <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></i></li>
+          
+          <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">hitmeup@gmail.com</a></span></i></li>
+          
+        </ul>
+
+        <hr>
+        <ul class="social-media-list">
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fa fa-github" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fa fa-codepen" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fa fa-twitter" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fa fa-instagram" aria-hidden="true"></i></a>
+          </li>       
+        </ul>
+        <hr>
+
+        <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+
+      </div>    
+      </div>  
+    </div>
+  </div>
+</section>
+
+
+<footer id="footer">
+
+  <div class="footer">
+    <div class="submit">
+      <h4 class="text-title">NAME <span style="color: var(--font-color-secondary);">SITE</span></h4>
+      <p class="p-text">Mauris metus tellus, lacinia nec efficitur quis, rhoncus et mi.</p>
+      <div class="icon-sociais">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-solid fa-hashtag"></i>
+      </div>
+    </div>
+    <div class="links">
+      <h4 class="text-title">
+        additional links
+      </h4>
+      <ul>
+        <li>
+          <a href="">
+            <p class="p-text">Our Portfolio on Envato</p>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <p class="p-text">Contact Us on ThemeForest</p>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <p class="p-text">new item RSS feed</p>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <p class="p-text">Our Other Site</p>
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <p class="p-text">Our Email</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="posts-recents">
+    <h4 class="text-title">additional links</h4>
+    <ul>
+      <li>
+        <a href="">
+          <p class="p-text">Our Portfolio on Envato</p>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <p class="p-text">Contact Us on ThemeForest</p>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <p class="p-text">new item RSS feed</p>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <p class="p-text">Our Other Site</p>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <p class="p-text">Our Email</p>
+        </a>
+      </li>
+    </ul>
+  </div>
+    <div class="photo-stream">
+      <h4 class="text-title">photo stream</h4>
+      <div class="row row-cols-2">
+      <a href=""><img src="assets/imagens/footer-img/12333834195_7dcb472dd5_q.jpg" alt=""></a>
+      <a href=""><img src="assets/imagens/footer-img/12333983853_8fc462a494_q.jpg" alt=""></a>
+      <a href=""><img src="assets/imagens/footer-img/13090422515_cabc9c447c_q.jpg" alt=""></a>
+      <a href=""><img src="assets/imagens/footer-img/13090456565_df81e68627_q.jpg" alt=""></a>
+      <a href=""><img src="assets/imagens/footer-img/13090549273_ee5c732ce1_q.jpg" alt=""></a>
+      <a href=""><img src="assets/imagens/footer-img/13090762874_5f9d99f4e5_q.jpg" alt=""></a>
+      </div>
+    </div>  
+  </div>
+
+  <aside class="feixe-bottom">
+    <h4 class="text-bottom">made by Renk Sa</h4>
+  </aside>
+</footer>
+                
+
+       
+   
+      </main>
+    </div>
+    </div>
+
+<script src="js/main.js"></script>
+
+
+<!------------FONTAWESOME----------->
+<script src="https://kit.fontawesome.com/04e525ee6b.js" crossorigin="anonymous"></script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+</body>
+</html>
