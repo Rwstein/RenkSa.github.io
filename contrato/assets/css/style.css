@@ -79,6 +79,7 @@ main {
         #ffeb3b,
         #ff00e0
     );
+    background-clip: border-box;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: animate 1.5s linear infinite;
