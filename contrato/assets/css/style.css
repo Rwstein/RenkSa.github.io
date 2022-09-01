@@ -132,6 +132,8 @@ button {
     animation: animate 1.5s linear infinite;
     top: 80%;
     left: 587px;
+    border-radius: 20px;
+    border: transparent;
     position: absolute;
     color: #000;
     font-size: 15pt;
