@@ -36,3 +36,12 @@ btn.addEventListener('click', () => {
     messengerTop.classList.remove('invisibleMessenger')
     messengerTop.classList.add('visibleMessenger')
 })
+
+const btnMostra = document.querySelector('.btnMostra')
+const btnShow = document.querySelector('#btnShow')
+
+btn.addEventListener('click', () => {
+
+    btnShow.classList.remove('invisibleMessenger')
+    btnShow.classList.add('visibleMessenger')
+})

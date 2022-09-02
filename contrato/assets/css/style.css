@@ -16,6 +16,20 @@ font-family: 'Orbitron', sans-serif;
     color: #fff;
 }
 
+a {
+    text-decoration: none;
+    background: #141414;
+    color: transparent;
+    font-size: 15px;
+    font-weight: 900;
+    text-transform: uppercase;
+    width: 82px;
+    border-radius: 50%;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /************ nav ________ */
 
 nav {
@@ -127,7 +141,7 @@ img {
     height: 500px;
 }
 
-button {
+button.btnShow {
     width: 200px;
     padding: 10px;
     text-align: center;
@@ -155,13 +169,14 @@ button {
 }
 
 div#messengerTop h1 {
-    top: 234px;
+    top: 220px;
     position: absolute;
     background: transparent;
     z-index: 10;
-    left: 475px;
+    left: 470px;
     font-family: 'scareCrow', sans-serif;
     color: rgb(57, 10, 10);
+    font-size: 2.3em;
 }
 
 .invisibleMessenger {
@@ -169,21 +184,21 @@ div#messengerTop h1 {
 }
 
 .visibleMessenger {
-    display: block !important;
+    display: flex !important;
 }
 
 .typing-demo {
-    width: 39ch;
-    animation: typing 5s steps(22), blink 3s step-end infinite alternate;
+    width: 33ch;
+    animation: typing 10s steps(22), blink 3s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 3px solid;
     font-family: 'scareCrow', sans-serif;
-    font-size: 2em;
+    font-size: 2.3em;
     position: absolute;
     background: transparent;
-    top: 310px;
-    left: 400px;
+    top: 290px;
+    left: 421px;
     z-index: 10;
     color: rgb(57, 10, 10);  
   }
@@ -199,3 +214,27 @@ div#messengerTop h1 {
       border-color: transparent
     }
   }
+
+
+div#btnShow {
+    position: absolute;
+    top: 386px;
+    justify-content: space-between;
+    gap: 100px;
+    background: transparent;
+    left: 600px;
+}
+
+button.btnMostra {
+    background: transparent;
+    border: none;
+    padding: 10px;
+}
+
+.btnDiv {
+    background: linear-gradient( 135deg, #14ffe9, #ffeb3b, #ff00e0 );
+    color: #141414;
+    border-radius: 50%;
+    border: 3px solid #141414;
+    animation: animate 1.5s linear infinite;
+}
