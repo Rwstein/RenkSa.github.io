@@ -275,6 +275,7 @@ h1 .type{
       animate 1.5s linear infinite;
       animation-delay: 4s;
     background: linear-gradient( 135deg, #14ffe9, #ffeb3b, #ff00e0 );
+    border-radius: 10px;
 }
 h1 .type2{
     font-size: 1.5rem; 
@@ -288,6 +289,7 @@ h1 .type2{
       animate 1.5s linear infinite;
     animation-delay: 6s;
     background: linear-gradient( 135deg, #14ffe9, #ffeb3b, #ff00e0 );
+    border-radius: 10px;
 }
 h1 .type3{
     font-size: 1.5rem; 
@@ -301,6 +303,7 @@ h1 .type3{
       animate 1.5s linear infinite;
     animation-delay: 8s;
     background: linear-gradient( 135deg, #14ffe9, #ffeb3b, #ff00e0 );
+    border-radius: 10px;
 }
 
 @keyframes typing {
