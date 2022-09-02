@@ -26,3 +26,13 @@ setInterval(() => {
     }
     time.textContent = horas + ":" + minutos + ":" + segundos + " "+ dia_noite;
 });
+
+
+const btn = document.querySelector('.btnShow')
+const messengerTop = document.querySelector('#messengerTop')
+
+btn.addEventListener('click', () => {
+
+    messengerTop.classList.remove('invisibleMessenger')
+    messengerTop.classList.add('visibleMessenger')
+})

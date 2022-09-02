@@ -12,20 +12,20 @@
 </head>
 <body>
 
-<header>
-    <nav>
-        <H1>CONTRATA-ME</H1>
-    </nav>
-</header>
-
-<main class="container">
 
     <video autoplay loop muted>
         <source src="assets/video/1073251766-preview.mp4" type="video/mp4" />
     </video>
 
-    <div class="load-screen">
+    <div id="messengerTop" class="load-screen bounce-in-top invisibleMessenger">
         <img src="assets/img/headerback.png" alt="tabua">
+
+        <h1>Uma Mensagem a vossa Senhoria!</h1>
+        <div class="typing-demo">
+            Olá, Sra. Carla estou disponível se <br>
+            precisarem de apoio pode contatar-me.
+        </div>
+
     </div>
 
     <div class="wrapper">
@@ -39,8 +39,8 @@
 
     </div>
 
-    <button onclick="clickme()">Clique Aqui</button>
-</main>
+    <button type="button" class="btnShow">Clique Aqui</button>
+
 
 
 <script src="assets/JS/main.js"></script>

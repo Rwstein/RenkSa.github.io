@@ -1,0 +1,16 @@
+@media screen and (max-width: 380px) {
+    nav {
+        display: flex !important;
+        height: 20vh !important;
+    }
+
+    nav h1 {
+        text-align: center !important;
+        font-size: medium !important;
+
+    }
+
+    video {
+        height: 100% !important;
+    }
+}

@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Monoton&family=Orbitron&display=swap');
+@import url("responsive.css");
+@import url("../fonts/FerroRosso.ttf");
 
 /*************** FONTS
 font-family: 'Courgette', cursive;
@@ -122,6 +124,7 @@ img {
     position: absolute;
     background: transparent;
     transition: 0.3s ease-in-out;
+    height: 500px;
 }
 
 button {
@@ -139,4 +142,60 @@ button {
     font-size: 15pt;
     cursor: pointer;
 }
+.tracking-in-expand{-webkit-animation:tracking-in-expand 3s cubic-bezier(.215,.61,.355,1.000) 1.5s both;animation:tracking-in-expand 3s cubic-bezier(.215,.61,.355,1.000) 1.5s both}
+@-webkit-keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}@keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.6}100%{opacity:1}}
 
+.bounce-in-top{-webkit-animation:bounce-in-top 4s .5s both;animation:bounce-in-top 4s .5s both}
+@-webkit-keyframes bounce-in-top{0%{-webkit-transform:translateY(-500px);transform:translateY(-500px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:0}38%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;opacity:1}55%{-webkit-transform:translateY(-65px);transform:translateY(-65px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}72%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}81%{-webkit-transform:translateY(-28px);transform:translateY(-28px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}90%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}95%{-webkit-transform:translateY(-8px);transform:translateY(-8px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}100%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}@keyframes bounce-in-top{0%{-webkit-transform:translateY(-500px);transform:translateY(-500px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:0}38%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;opacity:1}55%{-webkit-transform:translateY(-65px);transform:translateY(-65px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}72%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}81%{-webkit-transform:translateY(-28px);transform:translateY(-28px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}90%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}95%{-webkit-transform:translateY(-8px);transform:translateY(-8px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}100%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}
+@font-face {
+    font-family: 'scareCrow';
+    src: url('../fonts/Scarecrow-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+div#messengerTop h1 {
+    top: 234px;
+    position: absolute;
+    background: transparent;
+    z-index: 10;
+    left: 475px;
+    font-family: 'scareCrow', sans-serif;
+    color: rgb(57, 10, 10);
+}
+
+.invisibleMessenger {
+    display: none;
+}
+
+.visibleMessenger {
+    display: block !important;
+}
+
+.typing-demo {
+    width: 39ch;
+    animation: typing 5s steps(22), blink 3s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: 'scareCrow', sans-serif;
+    font-size: 2em;
+    position: absolute;
+    background: transparent;
+    top: 310px;
+    left: 400px;
+    z-index: 10;
+    color: rgb(57, 10, 10);  
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    100% {
+      border-color: transparent
+    }
+  }
