@@ -12,5 +12,109 @@
 
     video {
         height: 100% !important;
+        position: absolute !important;
     }
-}
+
+    .wrapper{
+        height: 83px !important;
+        width: 159px !important;
+        left: 99px !important;
+        top: 72px !important;
+    }
+
+    .wrapper .display {
+        height: 72px !important;
+        width: 137px !important;
+    }
+
+    .display #time {
+        line-height: 80px !important;
+        font-size: 20px !important;
+        letter-spacing: 1px !important;
+    }
+
+    button.btnShow {
+        left: 92px !important;
+    }
+
+    img {
+        height: 421px !important;
+        width: 371px !important;
+        left: -7px !important;
+    }
+
+    div#messengerTop h1 {
+        top: 200px !important;
+        left: 40px !important;
+        font-size: 15pt !important;
+    }
+
+    h1 .type {
+        font-size: 8px !important;
+        margin-left: 30px;
+        font-family: Arial, Helvetica, sans-serif !important;
+        text-transform: uppercase;
+        font-weight: 900;
+        background: transparent !important;
+    }
+
+    h1 .type2 {
+        font-size: 8px !important;
+        margin-left: 30px;
+        font-family: Arial, Helvetica, sans-serif !important;
+        text-transform: uppercase;
+        font-weight: 900;
+        background: transparent !important;
+    }
+
+    h1 .type3 {
+        font-size: 8px !important;
+        margin-left: 30px;
+        font-family: Arial, Helvetica, sans-serif !important;
+        text-transform: uppercase;
+        font-weight: 900;
+        background: transparent !important;
+    }
+
+    h1.typeCss {
+        margin-top: 28px !important;
+        margin-left: -40px !important;
+    }
+
+    h1.titulo-num {
+        margin-left: 20px !important;
+    }
+
+    div#btnShow {
+        left: 79px !important;
+        top: 329px !important;
+    }
+
+    button.btnMostra {
+        padding: 3px !important;
+    }
+
+    h1.typeCss {
+        margin-top: 50px !important;
+        margin-left: -50px !important;
+    }
+
+    h1.typeCss {
+        background-color: #fff !important;
+        width: 326px;
+        overflow: hidden;
+        margin-left: -25px !important;
+    }
+    
+    .c1 {
+        margin-left: -19px;
+    }
+
+    .c2 {
+        margin-left: -19px;
+    }
+
+    .c3 {
+        margin-left: -19px;
+    }
+}   
