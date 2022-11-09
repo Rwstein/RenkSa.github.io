@@ -250,15 +250,9 @@ img{
   align-items: center;
 }
 
-.text-logo {
-  position: absolute;
-  top: 48px;
-  font-size: 10pt;
-}
-
 .abs-java{
   font-size: 30pt;
-  margin-top: -18px;
+  margin-top: -4px;
 }
 
 @media screen and (max-width: 768px){
@@ -530,7 +524,7 @@ i.fa-brands.fa-bootstrap {
 
 
 .box-content:hover{
-  box-shadow: 20px 10px 20px 5px #719be8;
+  box-shadow: 10px 5px 10px 5px #719be8;
 }
 
 .owl-carousel .owl-item img{
@@ -760,8 +754,16 @@ i.fa-brands.fa-bootstrap {
   }
 
   #pre-loader {
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
     width: 100vw;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.75);
 }
 
 }
@@ -854,8 +856,10 @@ i.fa-brands.fa-bootstrap {
 }
 
   .menu__content{
-    padding: 1.5rem;
+    width: 250px;
+    height: 250px;
   }
+  
   .menu__img{
     width: 130px;
   }

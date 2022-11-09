@@ -7,7 +7,7 @@
   <meta name="author" content="Renk Sá">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <!--========== CSS ==========-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
   <link rel="stylesheet" media="screen" href="assets/css/style.css">
   <link rel="stylesheet" media="screen" href="assets/css/styles.css">
   <link rel="stylesheet" href="assets/css/all.css">
@@ -18,10 +18,14 @@
   <!--========== FAVICOM ==========-->
   <link rel="shortcut icon" href="assets/img/logo-Rws.png" type="image/x-icon">
 
+  <!-- Tooltips -->
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+
   <!--Owl css-->
   <link rel="stylesheet" href="assets/css/owl/owl.carousel.min.css">
   <link rel="stylesheet" href="assets/css/owl/owl.theme.default.min.css">
 </head>
+
 <body>
         <div id="pre-loader"></div>
        <!--========== SCROLL TOP ==========-->
@@ -38,7 +42,7 @@
     <!--========== HEADER ==========-->
     <header class="l-header" id="header">
         <nav class="nav bd-container">
-            <a href="index.html" class="nav__logo"><i class="fa-brands fa-java abs-java"></i><h3 class="text-logo">RWS</h3></a>
+            <a href="index.html" class="nav__logo"><i class="fa-brands fa-java abs-java"></i></a>
 
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
@@ -68,8 +72,9 @@
                     <h2 class="home__subtitle">Me chamo,  <br> <span class="text-focus-in">Renk Willy da Mota Sá</span></h2>
                     <a href="#work" class="button">Ver projetos</a>
                 </div>
-
+                <div class="bubble"></div>
                 <img src="assets/img/Eu.png" class="home__img" alt="imagem de perfil">
+            
             </div>
 
             <div>
@@ -120,54 +125,137 @@
             <h2 class="section-title">Preview</h2>
 
             <div class="grid-4 bd-grid services__content">
-                <div class="menu__content box-content">                        
-                    <a href="https://github.com/RenkSa/dsmovie" target="_blank" class="menu__name"><img src="https://cdn2.iconfinder.com/data/icons/programming-languages-8/64/207_programming-program-language-code-typescript-512.png" alt="imagem icone TS">                        
-                     Site - Avaliador de Filmes </a>                        
+                <div class="menu__content box-content">
+                    <div class="img-project">                      
+                        <img class="img-hover" src="assets/img/print_img_webavaliadorfilme.png" alt="imagem do site - avaliado de filme">
+                    </div>
+                    <div class="description-project">
+                        <h6 style="text-transform: uppercase; font-size: 10pt;color: #131313;margin-top: 9px;">site avaliador de filmes</h6>
+                        <p>Olá pessoal! Este site foi criado no evento do prof. Nélio Alves, uma ótima aula.<br><span style="background-color: #FFF;">TYPESCRIPT JAVA CSS HTML</span></p>
+                        <div class="icon-project">
+                            <a title="Ver Site" href="https://rwsmovie.netlify.app/" target="_blank" style="margin: 20px;font-size: 20pt;"><i class="fa-solid fa-eye"></i></a><a title="Ver Repositório" href="https://github.com/RenkSa/dsmovie.git" style="font-size:20pt;" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div> 
+                    </div>
+                                            
                 </div>
                 
                 <div class="menu__content box-content">
-                    <a href="https://github.com/RenkSa/RenkSa.github.io/tree/main/P%C3%A1gina%20do%20Instagram" target="_blank" class="menu__name"><img src="https://cdn2.iconfinder.com/data/icons/neon-line-social-circles/100/Neon_Line_Social_Circles-Instagram_50-256.png" alt="imagem icone instagram">
-                     Página Inicial do Instagram </a>
+                    <div class="img-project">                      
+                        <img class="img-hover" src="assets/img/instagramclone-img.png" alt="imagem instagram clone login">
+                    </div>
+                    <div class="description-project">
+                        <h6 style="text-transform: uppercase; font-size: 10pt;color: #131313;margin-top: 9px;">site avaliador de filmes</h6>
+                        <p>Aqui um clone do login da Rede Social Instagram <br> <span style="background-color: #fff; padding: 0 10px;">HTML e CSS</span></p>
+                        <div class="icon-project">
+                            <a title="Ver Site" href="https://renksa.github.io/P%C3%A1gina%20do%20Instagram/index.html" target="_blank" style="margin: 20px;font-size: 20pt;"><i class="fa-solid fa-eye"></i></a><a title="Ver Repositório" href="https://github.com/RenkSa/RenkSa.github.io/tree/main/P%C3%A1gina%20do%20Instagram" style="font-size:20pt;" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div> 
+                    </div>
+                                            
                 </div>
 
                 <div class="menu__content box-content">
-                    <a href="https://github.com/RenkSa/RenkSa.github.io/tree/main/portfolio" target="_blank" class="menu__name"><img src="assets/img/portifolioico.png" alt="imagem perfil">                  
-                     Portifólio </a>                        
+                    <div class="img-project">                      
+                        <img class="img-hover" src="assets/img/portifolio.png" alt="imagem Portifólio Renk Sa">
+                    </div>
+                    <div class="description-project">
+                        <h6 style="text-transform: uppercase; font-size: 10pt;color: #131313;margin-top: 9px;">site avaliador de filmes</h6>
+                        <p>Bom este é um trabalho do meu portifólio, ao passar do dia vou atualizando e colocando novos conhecimentos a mim concedido, uma página de carinho e dedicação.<br> <span style="background-color: #fff; padding: 0 10px;"> HTML CSS JS</span></p>
+                        <div class="icon-project">
+                            <a title="Ver Site" href="https://renksa.github.io/portfolio/index.html" target="_blank" style="margin: 20px;font-size: 20pt;"><i class="fa-solid fa-eye"></i></a><a title="Ver Repositório" href="https://github.com/RenkSa/RenkSa.github.io/tree/main/portfolio" style="font-size:20pt;" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div> 
+                    </div>                        
                 </div>
 
                 <div class="menu__content box-content">
-                    <a href="https://github.com/RenkSa/RenkSa.github.io/tree/main/Netflix" target="_blank" class="menu__name"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCOngqnspIrHcXiOU8-7FWgFfZZuZu9YYUhw&usqp=CAU" alt="img monitor perfil">
-                     Interface Netflix </a>
+                    <div class="img-project">                      
+                        <img class="img-hover" src="assets/img/Clone Netflix.png" alt="imagem clone netflix">
+                    </div>
+                    <div class="description-project">
+                        <h6 style="text-transform: uppercase; font-size: 10pt;color: #131313;margin-top: 9px;">site avaliador de filmes</h6>
+                        <p>Um clone do netflix <BR></BR> <span style="background-color: #FFF;">HTMLE CSS</span></p>
+                        <div class="icon-project">
+                            <a title="Ver Site" href="https://renksa.github.io/Netflix/index.html" target="_blank" style="margin: 20px;font-size: 20pt;"><i class="fa-solid fa-eye"></i></a><a title="Ver Repositório" href="https://github.com/RenkSa/RenkSa.github.io/tree/main/Netflix" style="font-size:20pt;" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div> 
+                    </div> 
                 </div>
                 
                 <div class="menu__content box-content">
-                    <a href="https://github.com/RenkSa/RenkSa.github.io/tree/main/googleglass" target="_blank" class="menu__name"><img src="https://cdn-icons-png.flaticon.com/512/46/46119.png" alt="óculos google glass">                        
-                     Site GoogleGlass </a>                        
+                    <div class="img-project">                      
+                        <img class="img-hover" src="assets/img/gguanabara.png" alt="IMAGEM SITE googleglass">
+                    </div>
+                    <div class="description-project">
+                        <h6 style="text-transform: uppercase; font-size: 10pt;color: #131313;margin-top: 9px;">CURSOS EM VIDEO</h6>
+                        <p>MEU PRIMEIRO SITE COM PROF. GUSTAVO GUANABARA <BR></BR> <span style="background-color: #FFF;">HTML - CSS - JS</span></p>
+                        <div class="icon-project">
+                            <a title="Ver Site" href="https://renksa.github.io/googleglass/index.html" target="_blank" style="margin: 20px;font-size: 20pt;"><i class="fa-solid fa-eye"></i></a><a title="Ver Repositório" href="https://github.com/RenkSa/RenkSa.github.io/tree/main/googleglass" style="font-size:20pt;" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div> 
+                    </div>                         
                 </div>
 
                 <div class="menu__content box-content"> 
-                    <a href="https://github.com/RenkSa/aula_booststrap" target="_blank" class="menu__name"><img src="assets/img/bootstrapico.png" alt="icone bootstrap">                       
-                     Utilizando Bootstrap </a>                        
+                    <div class="img-project">                      
+                        <img class="img-hover" src="assets/img/projeto.png" alt="IMAGEM Bootstrap">
+                    </div>
+                    <div class="description-project">
+                        <h6 style="text-transform: uppercase; font-size: 10pt;color: #131313;margin-top: 9px;">PROJETO BOOSTRAP</h6>
+                        <p>VIDEOS AULAS YOUTUBE <BR></BR> <span style="background-color: #FFF;">HTML - CSS - Bootstrap</span></p>
+                        <div class="icon-project">
+                            <a title="Ver Repositório" href="https://github.com/RenkSa/aula_booststrap" style="font-size:20pt;" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div> 
+                    </div>                 
                 </div>
 
                 <div class="menu__content box-content"> 
-                    <a href="https://github.com/RenkSa/RenkSa.github.io/tree/main/snakeGame" target="_blank" class="menu__name"><img src="assets/img/snakegame.png" alt="img jogo da cobrinha">                       
-                     Snake Game </a>                        
+                    <div class="img-project">                      
+                        <img class="img-hover" src="assets/img/snakegame.png" alt="IMAGEM GAME SNAKE">
+                    </div>
+                    <div class="description-project">
+                        <h6 style="text-transform: uppercase; font-size: 10pt;color: #131313;margin-top: 9px;">SNAKE GAME</h6>
+                        <p>VIDEO AULAS DIGITAL INNOVATION ONE INC.<BR></BR> <span style="background-color: #FFF;">HTML - CSS - JS</span></p>
+                        <div class="icon-project">
+                            <a title="Ver Site" href="https://renksa.github.io/snakeGame/index.html" target="_blank" style="margin: 20px;font-size: 20pt;"><i class="fa-solid fa-eye"></i></a><a title="Ver Repositório" href="https://github.com/RenkSa/RenkSa.github.io/tree/main/snakeGame" style="font-size:20pt;" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div> 
+                    </div>                  
                 </div>
 
                 <div class="menu__content box-content">                    
-                    <a href="https://github.com/RenkSa/RenkSa.github.io/tree/main/rentalCars" target="_blank" class="menu__name"><i class="fa-brands fa-bootstrap"></i>                    
-                     Landing-Page </a>                        
+                    <div class="img-project">                      
+                        <img class="img-hover" src="assets/img/RENTAL CARS.png" alt="SITE RENTAL CARS">
+                    </div>
+                    <div class="description-project">
+                        <h6 style="text-transform: uppercase; font-size: 10pt;color: #131313;margin-top: 9px;">PRIMEIRO SERVIÇO</h6>
+                        <p>Meu primeiro projeto(trabalho), criado e desenvolvido por mim, criei este site com a direção do meu cliente.<BR></BR> <span style="background-color: #FFF;">HTML - CSS - JS</span></p>
+                        <div class="icon-project">
+                            <a title="Ver Site" href="https://renksa.github.io/snakeGame/index.html" target="_blank" style="margin: 20px;font-size: 20pt;"><i class="fa-solid fa-eye"></i></a><a title="Ver Repositório" href="https://github.com/RenkSa/RenkSa.github.io/tree/main/rentalCars" style="font-size:20pt;" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div> 
+                    </div>                    
                 </div>
 
                 <div class="menu__content box-content">                    
-                    <a href="https://github.com/RenkSa/RenkSa.github.io/tree/main/DioOrkut" target="_blank" class="menu__name"><img src="assets/img/icOrkut.png" alt="logo Orkut">                   
-                     Recriando Interface do Orkut </a>                        
+                    <div class="img-project">                      
+                        <img class="img-hover" src="assets/img/icOrkut.png" alt="home orkut">
+                    </div>
+                    <div class="description-project">
+                        <h6 style="text-transform: uppercase; font-size: 10pt;color: #131313;margin-top: 9px;">DIO ORKUT</h6>
+                        <p>AULAS COM O FELIPAO DA DIGITAL INNOVATION ONE INC. <BR></BR> <span style="background-color: #FFF;">HTML - CSS</span></p>
+                        <div class="icon-project">
+                            <a title="Ver Repositório" href="https://github.com/RenkSa/RenkSa.github.io/tree/main/DioOrkut" style="font-size:20pt;" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div> 
+                    </div>                        
                 </div>
 
                 <div class="menu__content box-content">                    
-                    <a href="https://github.com/RenkSa/RenkSa.github.io/tree/main/SpiderMan" target="_blank" class="menu__name"><img src="assets/img/spider-man-03.png" alt="SpiderMan">                   
-                     Multiverso | Interface </a>                        
+                    <div class="img-project">                      
+                        <img class="img-hover" src="assets/img/HOMERSPIDERMAN.png" alt="IMAGEM HOMER SPIDERMAN">
+                    </div>
+                    <div class="description-project">
+                        <img class="spiderup bounce-in-top" src="assets/img/spider-man-03.png" alt="">
+                        <h6 style="text-transform: uppercase; font-size: 10pt;color: #131313;margin-top: 9px;">PROJETO SPIDERMAN</h6>
+                        <p>VIDEO AULAS DA DIGITAL INNOVATION ONE INC. PROJETO FEITO ONLINE.<BR></BR> <span style="background-color: #FFF;">HTML - CSS - JS</span></p>
+                        <div class="icon-project">
+                            <a title="Ver Repositório" href="https://github.com/RenkSa/RenkSa.github.io/tree/main/SpiderMan" style="font-size:20pt;" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div> 
+                    </div>                      
                 </div>
 
                 
@@ -272,12 +360,16 @@
                     <h2 class="section-title contact__initial">Contato</h2>
                 </div>
 
-                <div class="contact__button">
-        <img src="assets/img/whatsapp_gif.gif" class="gif"/>
-        <img src="assets/img/Email.gif" class="gEmail"/>
-        <a href="https://wa.me/5593992085930" target="_blank" class="button1">Enviar Mensagem</a>
-                    <a href="mailto:renksa8@gmail.com?" class="button">Enviar e-mail</a>
-                </div>
+               <form action="" method="get">
+                <label for="text">Nome:<input type="text" placeholder="Seu nome" id="text"></label>
+                <label for="email">E-mail:<input type="email" name="e-mail" id="email" placeholder="Endereço de email"></label>
+                <label for="texto">Mensagem:<input type="text" name="boxmessenger" id="texto" placeholder="Digite sua mensagem"></label>
+                <button type="submit">submit</button>
+            
+                
+
+
+               </form>
             </div>
         </section>
     </main>
@@ -332,10 +424,15 @@
 <script src="assets/js/owl/owl.carousel.min.js"></script>
 <script src="assets/js/owl/setup.js"></script>
 
+<!-- tooltips -->
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+
 <!-- scripts tsParticles-->
 <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.0.6/tsparticles.bundle.min.js"></script>
 <script src="assets/js/app.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
 
 

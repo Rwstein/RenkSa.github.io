@@ -131,4 +131,6 @@ function setOffline() {
     displayTarget.style.color = 'red'
 }
 
-
+$(function() {
+    $(document).tooltip();
+});
