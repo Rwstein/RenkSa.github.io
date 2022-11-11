@@ -1,3 +1,5 @@
+@import url(styles.css);
+
 canvas{
   display: block;
 }
@@ -21,12 +23,16 @@ canvas{
 /* ---- particles.js container ---- */
 #pre-loader {
     background: url(../img/Chunk-9.1s-214px.gif) center center no-repeat rgb(29 37 33);
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100vw;
     height: 100vh;
-    width: 1350px;
-    position: absolute;
-    z-index: 1000;
-    image-rendering: auto;
-    top: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.75);
 }
 
 #tsparticles{
@@ -81,3 +87,120 @@ p#onOff {
     left: 348px;
     top: 537px;
 }
+
+.img-project {
+    width: 100%;
+    height: 100%;
+}
+
+.img-project img {
+	height: 100%;
+	width: 100%;
+}
+
+.menu__content.box-content {
+	overflow: hidden;
+}
+
+.description-project {    
+	position: absolute;
+    display: flex;
+    opacity: 0;
+    transition: all 0.8s ease 0s;
+    background-color: rgba(0, 0, 0, 0.7);
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+	height: 100%;
+}
+
+
+.description-project:hover{
+	opacity: 1;
+	height: 100%;
+}
+
+div.description-project h6 {
+	font-size: 18px !important;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #719be8 !important;
+	top: 20px;
+	position: relative;
+}
+
+div.description-project p {
+	margin: 30px 46px 0 !important;
+	font-size: 12px !important;
+	font-style: italic;
+	color: #719be8 !important;
+	position: relative;
+	text-transform: uppercase;
+}
+
+.icon-project {
+	display: flex;
+	align-items: center;
+	list-style: none;
+	margin: 0px 81px;
+	justify-content: center;
+}
+
+.icon-project a {
+	color: #719be8 !important;
+	margin: 20px;
+}
+
+
+input {
+    position: relative;
+	margin: 10px;
+    left: 40px;
+}
+
+form {
+    width: 346px;
+    border: 1px solid;
+    border-radius: 6%;
+    height: 234px;
+}
+
+input#text {
+    margin: 10px;
+    left: 42px;
+}
+
+.bubble {
+	position: absolute;
+	top: 110px;
+	left: 670px;
+	width: 500px;
+	height: 500px;
+	border-radius: 85% 70% 78% 73%;
+	background: linear-gradient(
+		#cdd7f9,
+		#8fbcff40,
+		#b5e3ff7d,
+		#adc6ff17
+	);
+	border: 1px solid #0000ff36;
+	animation: rotate 10s linear forwards infinite;
+
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.spiderup {
+	position: absolute;
+	z-index: 0;
+	top: 10px;
+}
+.bounce-in-top{-webkit-animation:bounce-in-top 3s steps(2,start) infinite alternate backwards;animation:bounce-in-top 3s steps(2,start) infinite alternate backwards}
+@-webkit-keyframes bounce-in-top{0%{-webkit-transform:translateY(-500px);transform:translateY(-500px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:0}38%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;opacity:1}55%{-webkit-transform:translateY(-65px);transform:translateY(-65px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}72%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}81%{-webkit-transform:translateY(-28px);transform:translateY(-28px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}90%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}95%{-webkit-transform:translateY(-8px);transform:translateY(-8px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}100%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}@keyframes bounce-in-top{0%{-webkit-transform:translateY(-500px);transform:translateY(-500px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:0}38%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;opacity:1}55%{-webkit-transform:translateY(-65px);transform:translateY(-65px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}72%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}81%{-webkit-transform:translateY(-28px);transform:translateY(-28px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}90%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}95%{-webkit-transform:translateY(-8px);transform:translateY(-8px);-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in}100%{-webkit-transform:translateY(0);transform:translateY(0);-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out}}
