@@ -50,6 +50,13 @@ canvas{
 		background-color: var(--body-color);
 	
 	}
+	
+	.bubble {
+		top: 389px !important;
+		left: 72px !important;
+		width: 224px !important;
+		height: 214px !important;
+	}
 
 	.menu__container.bd-grid {
 		grid-template-columns: repeat(1, 1fr);
@@ -172,8 +179,8 @@ input#text {
 
 .bubble {
 	position: absolute;
-	top: 110px;
-	left: 670px;
+	top: 113px;
+	left: 665px;
 	width: 500px;
 	height: 500px;
 	border-radius: 85% 70% 78% 73%;
