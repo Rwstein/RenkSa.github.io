@@ -32,13 +32,7 @@
        <a href="#" class="scrolltop" id="scroll-top">
         <i class='bx bx-chevron-up scrolltop__icon'></i>
     </a>
-       <!--========== botao whats ==========--> 
-    <a href="https://wa.me/5593992085930" target="_blank" class="scrollwhats pulsate-bck slide-in-blurred-right" id="scroll-whats">
-        <i class="bi bi-whatsapp call-whats"></i>
-    </a>
-
-
-    
+        
     <!--========== HEADER ==========-->
     <header class="l-header" id="header">
         <nav class="nav bd-container">
@@ -72,8 +66,8 @@
                     <h2 class="home__subtitle">Me chamo,  <br> <span class="text-focus-in">Renk Willy da Mota Sá</span></h2>
                     <a href="#work" class="button">Ver projetos</a>
                 </div>
-                <div class="bubble"></div>
-                <img src="assets/img/Eu.png" class="home__img" alt="imagem de perfil">
+                <div class="bubble home__data"></div>
+                <img src="assets/img/Eu.png" class="home__img img-animate" alt="imagem de perfil">
             
             </div>
 
@@ -348,7 +342,21 @@
                     <span class="section-subtitle contact__initial">Vamos nos conectar</span>
                     <h2 class="section-title contact__initial">Contato</h2>
                 </div>
+                 <!-- Formulário Email -->
+            <form action="https://api.staticforms.xyz/submit" method="post" class="contact__data">
+                <label>Nome</label>
+                <input type="text" name="name" placeholder="Seu nome" required>
+                <label>Email</label>
+                <input type="text" name="email" placeholder="Seu email" required/>
+                <label>Mensagem</label>
+                <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem" required></textarea>
+                <input type="submit" value="Submit" />
+                <input type="hidden" name="replyTo" value="@">
+                <input type="hidden" name="accessKey" value="32a537e3-b6d2-4860-bab0-c4420d1fee55">
+                <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/portfolio/index.html">
+            </form>
             </div>
+           
         </section>
     </main>
 

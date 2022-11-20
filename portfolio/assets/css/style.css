@@ -158,23 +158,22 @@ div.description-project p {
 	margin: 20px;
 }
 
-
-input {
-    position: relative;
-	margin: 10px;
-    left: 40px;
-}
-
 form {
-    width: 346px;
+    width: 350px;
     border: 1px solid;
     border-radius: 6%;
     height: 234px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	z-index: 1;
+	height: 350px;
+	align-items: center;
 }
 
-input#text {
-    margin: 10px;
-    left: 42px;
+input, textarea{
+	width: 90%;
+	margin: 10px 0;
 }
 
 .bubble {
